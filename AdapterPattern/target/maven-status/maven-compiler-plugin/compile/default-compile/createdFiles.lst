@@ -1,0 +1,12 @@
+com\balazsholczer\adapter\MediaAdapter.class
+com\balazsholczer\adapter\AdvancedMediaPlayer.class
+com\balazsholczer\adapter\App.class
+com\balazsholczer\adapter\AudioPlayer.class
+com\balazsholczer\adapter\ModernAdapterDemo.class
+com\balazsholczer\adapter\FunctionalMediaAdapter.class
+com\balazsholczer\adapter\EnumMediaAdapter.class
+com\balazsholczer\adapter\GenericAdapter.class
+com\balazsholczer\adapter\VlcPlayer.class
+com\balazsholczer\adapter\MediaPlayer.class
+com\balazsholczer\adapter\FunctionalMediaAdapter$MediaFile.class
+com\balazsholczer\adapter\Mp4Player.class

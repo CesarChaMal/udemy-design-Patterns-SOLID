@@ -1,0 +1,5 @@
+com\balazsholczer\repository\UserRepository.class
+com\balazsholczer\repository\InMemoryUserRepository.class
+com\balazsholczer\repository\Repository.class
+com\balazsholczer\repository\User.class
+com\balazsholczer\repository\App.class

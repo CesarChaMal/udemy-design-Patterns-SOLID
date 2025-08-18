@@ -1,0 +1,9 @@
+com\balazsholczer\factory\FunctionalAlgorithmFactory.class
+com\balazsholczer\factory\ShortestPath.class
+com\balazsholczer\factory\AlgorithmFactory.class
+com\balazsholczer\factory\SpanningTree.class
+com\balazsholczer\factory\EnumAlgorithmFactory.class
+com\balazsholczer\factory\ModernFactoryDemo.class
+com\balazsholczer\factory\Algorithm.class
+com\balazsholczer\factory\LambdaAlgorithmFactory.class
+com\balazsholczer\factory\App.class

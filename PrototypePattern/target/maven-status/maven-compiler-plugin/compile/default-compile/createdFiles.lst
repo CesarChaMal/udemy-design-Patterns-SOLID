@@ -1,0 +1,15 @@
+com\balazsholczer\prototype\FunctionalPrototype$PrototypeFactory.class
+com\balazsholczer\prototype\Prototype.class
+com\balazsholczer\prototype\Book.class
+com\balazsholczer\prototype\RecordPrototype$RecordRegistry.class
+com\balazsholczer\prototype\ModernPrototypeDemo.class
+com\balazsholczer\prototype\SerializablePrototype.class
+com\balazsholczer\prototype\SerializablePrototype$SerializableBook.class
+com\balazsholczer\prototype\FunctionalPrototype$PrototypeManager.class
+com\balazsholczer\prototype\App.class
+com\balazsholczer\prototype\FunctionalPrototype.class
+com\balazsholczer\prototype\PrototypeRegistry.class
+com\balazsholczer\prototype\RecordPrototype$PersonRecord.class
+com\balazsholczer\prototype\SerializablePrototype$DeepCloneRegistry.class
+com\balazsholczer\prototype\RecordPrototype.class
+com\balazsholczer\prototype\RecordPrototype$BookRecord.class

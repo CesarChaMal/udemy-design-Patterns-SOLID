@@ -1,0 +1,11 @@
+com\balazsholczer\command\FunctionalSwitcher.class
+com\balazsholczer\command\Switcher.class
+com\balazsholczer\command\Light.class
+com\balazsholczer\command\App.class
+com\balazsholczer\command\LambdaSwitcher.class
+com\balazsholczer\command\FunctionalCommand.class
+com\balazsholczer\command\TurnOnCommand.class
+com\balazsholczer\command\CommandRecord.class
+com\balazsholczer\command\Command.class
+com\balazsholczer\command\ModernCommandDemo.class
+com\balazsholczer\command\TurnOffCommand.class

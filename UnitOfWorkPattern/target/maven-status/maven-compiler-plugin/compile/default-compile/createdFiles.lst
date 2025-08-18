@@ -1,0 +1,4 @@
+com\balazsholczer\unitofwork\App.class
+com\balazsholczer\unitofwork\Customer.class
+com\balazsholczer\unitofwork\Entity.class
+com\balazsholczer\unitofwork\UnitOfWork.class

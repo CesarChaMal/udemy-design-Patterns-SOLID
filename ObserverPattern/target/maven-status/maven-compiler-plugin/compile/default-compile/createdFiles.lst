@@ -1,0 +1,14 @@
+com\balazsholczer\observer\ModernObserverDemo.class
+com\balazsholczer\observer\WeatherObserver.class
+com\balazsholczer\observer\WeatherStation.class
+com\balazsholczer\observer\DataPresenter.class
+com\balazsholczer\observer\StreamWeatherStation$WeatherData.class
+com\balazsholczer\observer\EventWeatherStation$WeatherEvent.class
+com\balazsholczer\observer\EventWeatherStation$WeatherSubscriber.class
+com\balazsholczer\observer\Subject.class
+com\balazsholczer\observer\EventWeatherStation.class
+com\balazsholczer\observer\StreamWeatherStation.class
+com\balazsholczer\observer\FunctionalWeatherStation$WeatherData.class
+com\balazsholczer\observer\Observer.class
+com\balazsholczer\observer\FunctionalWeatherStation.class
+com\balazsholczer\observer\App.class

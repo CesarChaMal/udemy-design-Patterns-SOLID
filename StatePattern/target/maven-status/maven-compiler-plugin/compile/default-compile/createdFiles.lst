@@ -1,0 +1,13 @@
+com\balazsholczer\state\RecordStateContext$StateData.class
+com\balazsholczer\state\EnumStateContext.class
+com\balazsholczer\state\RecordStateContext.class
+com\balazsholczer\state\EnumStateContext$DeviceState$2.class
+com\balazsholczer\state\ModernStateDemo.class
+com\balazsholczer\state\OffState.class
+com\balazsholczer\state\OnState.class
+com\balazsholczer\state\EnumStateContext$DeviceState.class
+com\balazsholczer\state\FunctionalStateContext.class
+com\balazsholczer\state\Context.class
+com\balazsholczer\state\App.class
+com\balazsholczer\state\EnumStateContext$DeviceState$1.class
+com\balazsholczer\state\State.class

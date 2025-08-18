@@ -1,0 +1,12 @@
+com\balazsholczer\proxy\Image.class
+com\balazsholczer\proxy\FunctionalProxy.class
+com\balazsholczer\proxy\RealImage.class
+com\balazsholczer\proxy\DynamicProxy$ImageInvocationHandler.class
+com\balazsholczer\proxy\DynamicProxy.class
+com\balazsholczer\proxy\FunctionalProxy$LazyImage.class
+com\balazsholczer\proxy\FunctionalProxy$ImageData.class
+com\balazsholczer\proxy\ImageProxy.class
+com\balazsholczer\proxy\App.class
+com\balazsholczer\proxy\CachingProxy$CachedImageService.class
+com\balazsholczer\proxy\CachingProxy.class
+com\balazsholczer\proxy\ModernProxyDemo.class

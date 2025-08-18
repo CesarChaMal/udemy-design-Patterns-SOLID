@@ -1,0 +1,1 @@
+// This file has been replaced by FlyweightTest.java with comprehensive pattern testing

@@ -1,0 +1,10 @@
+com\balazsholczer\adapter\StarTeamAdapter.class
+com\balazsholczer\adapter\App.class
+com\balazsholczer\adapter\StarTeamV14API.class
+com\balazsholczer\adapter\FunctionalAdapter.class
+com\balazsholczer\adapter\ModernAdapterDemo.class
+com\balazsholczer\adapter\FunctionalAdapter$APICall.class
+com\balazsholczer\adapter\FunctionalAdapter$CheckinRequest.class
+com\balazsholczer\adapter\StarTeamV9API.class
+com\balazsholczer\adapter\ModernClient.class
+com\balazsholczer\adapter\LegacyClient.class

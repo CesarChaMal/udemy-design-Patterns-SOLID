@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.balazsholczer.abstractfactory.AbstractFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 s - in com.balazsholczer.abstractfactory.AbstractFactoryTest

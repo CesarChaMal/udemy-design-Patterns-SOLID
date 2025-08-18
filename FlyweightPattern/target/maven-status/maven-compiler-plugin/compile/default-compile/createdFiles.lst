@@ -1,0 +1,15 @@
+com\balazsholczer\flyweight\RecordFlyweight.class
+com\balazsholczer\flyweight\EnumFlyweight.class
+com\balazsholczer\flyweight\FlyweightFactory.class
+com\balazsholczer\flyweight\FunctionalFlyweight.class
+com\balazsholczer\flyweight\Flyweight.class
+com\balazsholczer\flyweight\FunctionalFlyweight$IntrinsicState.class
+com\balazsholczer\flyweight\RecordFlyweight$Context.class
+com\balazsholczer\flyweight\EnumFlyweight$Context.class
+com\balazsholczer\flyweight\ModernFlyweightDemo.class
+com\balazsholczer\flyweight\ConcreteFlyweight.class
+com\balazsholczer\flyweight\FunctionalFlyweight$RenderCommand.class
+com\balazsholczer\flyweight\RecordFlyweight$FlyweightData.class
+com\balazsholczer\flyweight\Context.class
+com\balazsholczer\flyweight\App.class
+com\balazsholczer\flyweight\FunctionalFlyweight$ExtrinsicState.class

@@ -1,0 +1,7 @@
+com\balazsholczer\apigateway\Response.class
+com\balazsholczer\apigateway\App.class
+com\balazsholczer\apigateway\APIGateway.class
+com\balazsholczer\apigateway\OrderService.class
+com\balazsholczer\apigateway\Request.class
+com\balazsholczer\apigateway\MicroService.class
+com\balazsholczer\apigateway\UserService.class

@@ -1,0 +1,8 @@
+com\balazsholczer\businessdelegate\BusinessDelegate.class
+com\balazsholczer\businessdelegate\BusinessLookup.class
+com\balazsholczer\businessdelegate\App.class
+com\balazsholczer\businessdelegate\FunctionalBusinessDelegate.class
+com\balazsholczer\businessdelegate\OrderService.class
+com\balazsholczer\businessdelegate\PaymentService.class
+com\balazsholczer\businessdelegate\BusinessService.class
+com\balazsholczer\businessdelegate\Client.class

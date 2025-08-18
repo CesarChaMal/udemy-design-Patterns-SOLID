@@ -1,0 +1,11 @@
+com\balazsholczer\nullobject\FunctionalCustomerFactory.class
+com\balazsholczer\nullobject\Database.class
+com\balazsholczer\nullobject\RecordCustomerFactory.class
+com\balazsholczer\nullobject\OptionalCustomerFactory.class
+com\balazsholczer\nullobject\NullCustomer.class
+com\balazsholczer\nullobject\RealCustomer.class
+com\balazsholczer\nullobject\CustomerRecord.class
+com\balazsholczer\nullobject\App.class
+com\balazsholczer\nullobject\CustomerFactory.class
+com\balazsholczer\nullobject\AbstractCustomer.class
+com\balazsholczer\nullobject\ModernNullObjectDemo.class

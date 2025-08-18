@@ -1,0 +1,10 @@
+com\balazsholczer\strategy\ModernStrategyDemo.class
+com\balazsholczer\strategy\EnumStrategyManager$Operation.class
+com\balazsholczer\strategy\EnumStrategyManager.class
+com\balazsholczer\strategy\Add.class
+com\balazsholczer\strategy\FunctionalManager.class
+com\balazsholczer\strategy\StreamStrategyManager.class
+com\balazsholczer\strategy\Strategy.class
+com\balazsholczer\strategy\Manager.class
+com\balazsholczer\strategy\Multiply.class
+com\balazsholczer\strategy\App.class

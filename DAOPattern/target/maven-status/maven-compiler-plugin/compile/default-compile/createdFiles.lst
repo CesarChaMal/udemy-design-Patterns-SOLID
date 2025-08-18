@@ -1,0 +1,9 @@
+com\balazsholczer\dao\Person.class
+com\balazsholczer\dao\PersonDAO.class
+com\balazsholczer\dao\FunctionalPersonDAO.class
+com\balazsholczer\dao\GenericDAO.class
+com\balazsholczer\dao\ModernDAODemo.class
+com\balazsholczer\dao\StreamPersonRepository.class
+com\balazsholczer\dao\PersonRecord.class
+com\balazsholczer\dao\App.class
+com\balazsholczer\dao\Database.class

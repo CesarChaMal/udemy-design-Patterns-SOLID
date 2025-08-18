@@ -1,0 +1,14 @@
+com\balazsholczer\memento\RecordMemento$Snapshot.class
+com\balazsholczer\memento\FunctionalMemento$CommandManager.class
+com\balazsholczer\memento\Caretaker.class
+com\balazsholczer\memento\Memento.class
+com\balazsholczer\memento\StreamMemento$StreamStateManager.class
+com\balazsholczer\memento\App.class
+com\balazsholczer\memento\FunctionalMemento.class
+com\balazsholczer\memento\ModernMementoDemo.class
+com\balazsholczer\memento\FunctionalMemento$Command.class
+com\balazsholczer\memento\Originator.class
+com\balazsholczer\memento\RecordMemento.class
+com\balazsholczer\memento\RecordMemento$StateManager.class
+com\balazsholczer\memento\StreamMemento$StateSnapshot.class
+com\balazsholczer\memento\StreamMemento.class

@@ -1,0 +1,10 @@
+com\balazsholczer\singleton\App.class
+com\balazsholczer\singleton\ReentrantLockSingleton.class
+com\balazsholczer\singleton\ModernSingletonDemo.class
+com\balazsholczer\singleton\RecordSingleton$SingletonData.class
+com\balazsholczer\singleton\AtomicSingleton.class
+com\balazsholczer\singleton\FunctionalSingleton$1.class
+com\balazsholczer\singleton\FunctionalSingleton.class
+com\balazsholczer\singleton\RecordSingleton.class
+com\balazsholczer\singleton\LazySingleton.class
+com\balazsholczer\singleton\SingletonClass.class

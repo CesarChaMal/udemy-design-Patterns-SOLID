@@ -1,0 +1,10 @@
+com\balazsholczer\assembler\OrderDAO.class
+com\balazsholczer\assembler\FunctionalAssembler$AssemblerBuilder.class
+com\balazsholczer\assembler\CustomerTO.class
+com\balazsholczer\assembler\FunctionalAssembler.class
+com\balazsholczer\assembler\AccountDAO.class
+com\balazsholczer\assembler\AccountTO.class
+com\balazsholczer\assembler\App.class
+com\balazsholczer\assembler\CustomerAssembler.class
+com\balazsholczer\assembler\CustomerDAO.class
+com\balazsholczer\assembler\OrderTO.class

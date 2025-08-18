@@ -1,0 +1,10 @@
+com\balazsholczer\facade\Algorithm.class
+com\balazsholczer\facade\EnumSortingManager.class
+com\balazsholczer\facade\SortingManager.class
+com\balazsholczer\facade\App.class
+com\balazsholczer\facade\HeapSort.class
+com\balazsholczer\facade\MergeSort.class
+com\balazsholczer\facade\BubbleSort.class
+com\balazsholczer\facade\FunctionalSortingManager.class
+com\balazsholczer\facade\ModernFacadeDemo.class
+com\balazsholczer\facade\StreamSortingManager.class

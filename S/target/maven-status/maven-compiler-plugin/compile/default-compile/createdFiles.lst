@@ -1,0 +1,9 @@
+com\balazsholczer\solid\improved\BookRepository.class
+com\balazsholczer\solid\App.class
+com\balazsholczer\solid\improved\BookValidator.class
+com\balazsholczer\solid\Book.class
+com\balazsholczer\solid\improved\Book.class
+com\balazsholczer\solid\BookHandler.class
+com\balazsholczer\solid\improved\InMemoryBookRepository.class
+com\balazsholczer\solid\improved\BookService.class
+com\balazsholczer\solid\BookPersistence.class

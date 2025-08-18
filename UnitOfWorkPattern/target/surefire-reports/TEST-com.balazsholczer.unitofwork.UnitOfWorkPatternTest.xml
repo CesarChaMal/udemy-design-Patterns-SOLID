@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.529" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire6551597216119724236\surefirebooter-20250818211022855_282.jar C:\Users\Lenovo\AppData\Local\Temp\surefire6551597216119724236 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818211022855_280tmp surefire_36-20250818211022855_281tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Users\Lenovo\.sdkman\candidates\java\current"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire6551597216119724236\surefirebooter-20250818211022855_282.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.28+85-CA"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Lenovo\.sdkman\candidates\scala\current\bin;C:\Users\Lenovo\.sdkman\candidates\sbt\current\bin;C:\Users\Lenovo\.sdkman\candidates\maven\current\bin;C:\Users\Lenovo\.sdkman\candidates\kotlin\current\bin;C:\Users\Lenovo\.sdkman\candidates\java\current\bin;C:\Users\Lenovo\.sdkman\candidates\groovy\current\bin;C:\Users\Lenovo\.sdkman\candidates\grails\current\bin;C:\Users\Lenovo\.sdkman\candidates\gradle\current\bin;C:\Users\Lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Lenovo\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\Lenovo\anaconda3;C:\Users\Lenovo\anaconda3\Library\mingw-w64\bin;C:\Users\Lenovo\anaconda3\Library\usr\bin;C:\Users\Lenovo\anaconda3\Library\bin;C:\Users\Lenovo\anaconda3\Scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24+36"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testRollbackCapability" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.206">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 8
+UnitOfWork: Registered new entity 9
+UnitOfWork: Rolling back transaction...
+UnitOfWork: Transaction rolled back
+]]></system-out>
+  </testcase>
+  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.029">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 124
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='124', name='Test Customer', email='test@example.com'}
+UnitOfWork: Transaction committed successfully
+UnitOfWork: Registered new entity 125
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='125', name='Test Customer', email='test@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testEntityDirtyTracking" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.011">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 126
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='126', name='Dirty Customer', email='clean@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testMemoryManagement" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.032">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 22
+UnitOfWork: Registered new entity 23
+UnitOfWork: Registered new entity 24
+UnitOfWork: Registered new entity 25
+UnitOfWork: Registered new entity 26
+UnitOfWork: Registered new entity 27
+UnitOfWork: Registered new entity 28
+UnitOfWork: Registered new entity 29
+UnitOfWork: Registered new entity 30
+UnitOfWork: Registered new entity 31
+UnitOfWork: Registered new entity 32
+UnitOfWork: Registered new entity 33
+UnitOfWork: Registered new entity 34
+UnitOfWork: Registered new entity 35
+UnitOfWork: Registered new entity 36
+UnitOfWork: Registered new entity 37
+UnitOfWork: Registered new entity 38
+UnitOfWork: Registered new entity 39
+UnitOfWork: Registered new entity 40
+UnitOfWork: Registered new entity 41
+UnitOfWork: Registered new entity 42
+UnitOfWork: Registered new entity 43
+UnitOfWork: Registered new entity 44
+UnitOfWork: Registered new entity 45
+UnitOfWork: Registered new entity 46
+UnitOfWork: Registered new entity 47
+UnitOfWork: Registered new entity 48
+UnitOfWork: Registered new entity 49
+UnitOfWork: Registered new entity 50
+UnitOfWork: Registered new entity 51
+UnitOfWork: Registered new entity 52
+UnitOfWork: Registered new entity 53
+UnitOfWork: Registered new entity 54
+UnitOfWork: Registered new entity 55
+UnitOfWork: Registered new entity 56
+UnitOfWork: Registered new entity 57
+UnitOfWork: Registered new entity 58
+UnitOfWork: Registered new entity 59
+UnitOfWork: Registered new entity 60
+UnitOfWork: Registered new entity 61
+UnitOfWork: Registered new entity 62
+UnitOfWork: Registered new entity 63
+UnitOfWork: Registered new entity 64
+UnitOfWork: Registered new entity 65
+UnitOfWork: Registered new entity 66
+UnitOfWork: Registered new entity 67
+UnitOfWork: Registered new entity 68
+UnitOfWork: Registered new entity 69
+UnitOfWork: Registered new entity 70
+UnitOfWork: Registered new entity 71
+UnitOfWork: Registered new entity 72
+UnitOfWork: Registered new entity 73
+UnitOfWork: Registered new entity 74
+UnitOfWork: Registered new entity 75
+UnitOfWork: Registered new entity 76
+UnitOfWork: Registered new entity 77
+UnitOfWork: Registered new entity 78
+UnitOfWork: Registered new entity 79
+UnitOfWork: Registered new entity 80
+UnitOfWork: Registered new entity 81
+UnitOfWork: Registered new entity 82
+UnitOfWork: Registered new entity 83
+UnitOfWork: Registered new entity 84
+UnitOfWork: Registered new entity 85
+UnitOfWork: Registered new entity 86
+UnitOfWork: Registered new entity 87
+UnitOfWork: Registered new entity 88
+UnitOfWork: Registered new entity 89
+UnitOfWork: Registered new entity 90
+UnitOfWork: Registered new entity 91
+UnitOfWork: Registered new entity 92
+UnitOfWork: Registered new entity 93
+UnitOfWork: Registered new entity 94
+UnitOfWork: Registered new entity 95
+UnitOfWork: Registered new entity 96
+UnitOfWork: Registered new entity 97
+UnitOfWork: Registered new entity 98
+UnitOfWork: Registered new entity 99
+UnitOfWork: Registered new entity 100
+UnitOfWork: Registered new entity 101
+UnitOfWork: Registered new entity 102
+UnitOfWork: Registered new entity 103
+UnitOfWork: Registered new entity 104
+UnitOfWork: Registered new entity 105
+UnitOfWork: Registered new entity 106
+UnitOfWork: Registered new entity 107
+UnitOfWork: Registered new entity 108
+UnitOfWork: Registered new entity 109
+UnitOfWork: Registered new entity 110
+UnitOfWork: Registered new entity 111
+UnitOfWork: Registered new entity 112
+UnitOfWork: Registered new entity 113
+UnitOfWork: Registered new entity 114
+UnitOfWork: Registered new entity 115
+UnitOfWork: Registered new entity 116
+UnitOfWork: Registered new entity 117
+UnitOfWork: Registered new entity 118
+UnitOfWork: Registered new entity 119
+UnitOfWork: Registered new entity 120
+UnitOfWork: Registered new entity 121
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='44', name='Customer 22', email='customer22@example.com'}
+UnitOfWork: Inserting Customer{id='93', name='Customer 71', email='customer71@example.com'}
+UnitOfWork: Inserting Customer{id='51', name='Customer 29', email='customer29@example.com'}
+UnitOfWork: Inserting Customer{id='47', name='Customer 25', email='customer25@example.com'}
+UnitOfWork: Inserting Customer{id='24', name='Customer 2', email='customer2@example.com'}
+UnitOfWork: Inserting Customer{id='66', name='Customer 44', email='customer44@example.com'}
+UnitOfWork: Inserting Customer{id='34', name='Customer 12', email='customer12@example.com'}
+UnitOfWork: Inserting Customer{id='113', name='Customer 91', email='customer91@example.com'}
+UnitOfWork: Inserting Customer{id='112', name='Customer 90', email='customer90@example.com'}
+UnitOfWork: Inserting Customer{id='116', name='Customer 94', email='customer94@example.com'}
+UnitOfWork: Inserting Customer{id='121', name='Customer 99', email='customer99@example.com'}
+UnitOfWork: Inserting Customer{id='80', name='Customer 58', email='customer58@example.com'}
+UnitOfWork: Inserting Customer{id='118', name='Customer 96', email='customer96@example.com'}
+UnitOfWork: Inserting Customer{id='88', name='Customer 66', email='customer66@example.com'}
+UnitOfWork: Inserting Customer{id='42', name='Customer 20', email='customer20@example.com'}
+UnitOfWork: Inserting Customer{id='57', name='Customer 35', email='customer35@example.com'}
+UnitOfWork: Inserting Customer{id='27', name='Customer 5', email='customer5@example.com'}
+UnitOfWork: Inserting Customer{id='55', name='Customer 33', email='customer33@example.com'}
+UnitOfWork: Inserting Customer{id='49', name='Customer 27', email='customer27@example.com'}
+UnitOfWork: Inserting Customer{id='76', name='Customer 54', email='customer54@example.com'}
+UnitOfWork: Inserting Customer{id='72', name='Customer 50', email='customer50@example.com'}
+UnitOfWork: Inserting Customer{id='64', name='Customer 42', email='customer42@example.com'}
+UnitOfWork: Inserting Customer{id='41', name='Customer 19', email='customer19@example.com'}
+UnitOfWork: Inserting Customer{id='46', name='Customer 24', email='customer24@example.com'}
+UnitOfWork: Inserting Customer{id='22', name='Customer 0', email='customer0@example.com'}
+UnitOfWork: Inserting Customer{id='71', name='Customer 49', email='customer49@example.com'}
+UnitOfWork: Inserting Customer{id='62', name='Customer 40', email='customer40@example.com'}
+UnitOfWork: Inserting Customer{id='97', name='Customer 75', email='customer75@example.com'}
+UnitOfWork: Inserting Customer{id='85', name='Customer 63', email='customer63@example.com'}
+UnitOfWork: Inserting Customer{id='84', name='Customer 62', email='customer62@example.com'}
+UnitOfWork: Inserting Customer{id='45', name='Customer 23', email='customer23@example.com'}
+UnitOfWork: Inserting Customer{id='69', name='Customer 47', email='customer47@example.com'}
+UnitOfWork: Inserting Customer{id='114', name='Customer 92', email='customer92@example.com'}
+UnitOfWork: Inserting Customer{id='63', name='Customer 41', email='customer41@example.com'}
+UnitOfWork: Inserting Customer{id='82', name='Customer 60', email='customer60@example.com'}
+UnitOfWork: Inserting Customer{id='58', name='Customer 36', email='customer36@example.com'}
+UnitOfWork: Inserting Customer{id='94', name='Customer 72', email='customer72@example.com'}
+UnitOfWork: Inserting Customer{id='81', name='Customer 59', email='customer59@example.com'}
+UnitOfWork: Inserting Customer{id='111', name='Customer 89', email='customer89@example.com'}
+UnitOfWork: Inserting Customer{id='100', name='Customer 78', email='customer78@example.com'}
+UnitOfWork: Inserting Customer{id='35', name='Customer 13', email='customer13@example.com'}
+UnitOfWork: Inserting Customer{id='107', name='Customer 85', email='customer85@example.com'}
+UnitOfWork: Inserting Customer{id='104', name='Customer 82', email='customer82@example.com'}
+UnitOfWork: Inserting Customer{id='77', name='Customer 55', email='customer55@example.com'}
+UnitOfWork: Inserting Customer{id='101', name='Customer 79', email='customer79@example.com'}
+UnitOfWork: Inserting Customer{id='87', name='Customer 65', email='customer65@example.com'}
+UnitOfWork: Inserting Customer{id='36', name='Customer 14', email='customer14@example.com'}
+UnitOfWork: Inserting Customer{id='60', name='Customer 38', email='customer38@example.com'}
+UnitOfWork: Inserting Customer{id='91', name='Customer 69', email='customer69@example.com'}
+UnitOfWork: Inserting Customer{id='28', name='Customer 6', email='customer6@example.com'}
+UnitOfWork: Inserting Customer{id='31', name='Customer 9', email='customer9@example.com'}
+UnitOfWork: Inserting Customer{id='70', name='Customer 48', email='customer48@example.com'}
+UnitOfWork: Inserting Customer{id='96', name='Customer 74', email='customer74@example.com'}
+UnitOfWork: Inserting Customer{id='37', name='Customer 15', email='customer15@example.com'}
+UnitOfWork: Inserting Customer{id='73', name='Customer 51', email='customer51@example.com'}
+UnitOfWork: Inserting Customer{id='106', name='Customer 84', email='customer84@example.com'}
+UnitOfWork: Inserting Customer{id='23', name='Customer 1', email='customer1@example.com'}
+UnitOfWork: Inserting Customer{id='74', name='Customer 52', email='customer52@example.com'}
+UnitOfWork: Inserting Customer{id='40', name='Customer 18', email='customer18@example.com'}
+UnitOfWork: Inserting Customer{id='68', name='Customer 46', email='customer46@example.com'}
+UnitOfWork: Inserting Customer{id='67', name='Customer 45', email='customer45@example.com'}
+UnitOfWork: Inserting Customer{id='50', name='Customer 28', email='customer28@example.com'}
+UnitOfWork: Inserting Customer{id='98', name='Customer 76', email='customer76@example.com'}
+UnitOfWork: Inserting Customer{id='52', name='Customer 30', email='customer30@example.com'}
+UnitOfWork: Inserting Customer{id='89', name='Customer 67', email='customer67@example.com'}
+UnitOfWork: Inserting Customer{id='90', name='Customer 68', email='customer68@example.com'}
+UnitOfWork: Inserting Customer{id='29', name='Customer 7', email='customer7@example.com'}
+UnitOfWork: Inserting Customer{id='75', name='Customer 53', email='customer53@example.com'}
+UnitOfWork: Inserting Customer{id='79', name='Customer 57', email='customer57@example.com'}
+UnitOfWork: Inserting Customer{id='39', name='Customer 17', email='customer17@example.com'}
+UnitOfWork: Inserting Customer{id='109', name='Customer 87', email='customer87@example.com'}
+UnitOfWork: Inserting Customer{id='105', name='Customer 83', email='customer83@example.com'}
+UnitOfWork: Inserting Customer{id='117', name='Customer 95', email='customer95@example.com'}
+UnitOfWork: Inserting Customer{id='61', name='Customer 39', email='customer39@example.com'}
+UnitOfWork: Inserting Customer{id='119', name='Customer 97', email='customer97@example.com'}
+UnitOfWork: Inserting Customer{id='26', name='Customer 4', email='customer4@example.com'}
+UnitOfWork: Inserting Customer{id='59', name='Customer 37', email='customer37@example.com'}
+UnitOfWork: Inserting Customer{id='25', name='Customer 3', email='customer3@example.com'}
+UnitOfWork: Inserting Customer{id='83', name='Customer 61', email='customer61@example.com'}
+UnitOfWork: Inserting Customer{id='86', name='Customer 64', email='customer64@example.com'}
+UnitOfWork: Inserting Customer{id='108', name='Customer 86', email='customer86@example.com'}
+UnitOfWork: Inserting Customer{id='38', name='Customer 16', email='customer16@example.com'}
+UnitOfWork: Inserting Customer{id='120', name='Customer 98', email='customer98@example.com'}
+UnitOfWork: Inserting Customer{id='102', name='Customer 80', email='customer80@example.com'}
+UnitOfWork: Inserting Customer{id='92', name='Customer 70', email='customer70@example.com'}
+UnitOfWork: Inserting Customer{id='65', name='Customer 43', email='customer43@example.com'}
+UnitOfWork: Inserting Customer{id='53', name='Customer 31', email='customer31@example.com'}
+UnitOfWork: Inserting Customer{id='33', name='Customer 11', email='customer11@example.com'}
+UnitOfWork: Inserting Customer{id='115', name='Customer 93', email='customer93@example.com'}
+UnitOfWork: Inserting Customer{id='110', name='Customer 88', email='customer88@example.com'}
+UnitOfWork: Inserting Customer{id='43', name='Customer 21', email='customer21@example.com'}
+UnitOfWork: Inserting Customer{id='54', name='Customer 32', email='customer32@example.com'}
+UnitOfWork: Inserting Customer{id='48', name='Customer 26', email='customer26@example.com'}
+UnitOfWork: Inserting Customer{id='95', name='Customer 73', email='customer73@example.com'}
+UnitOfWork: Inserting Customer{id='103', name='Customer 81', email='customer81@example.com'}
+UnitOfWork: Inserting Customer{id='30', name='Customer 8', email='customer8@example.com'}
+UnitOfWork: Inserting Customer{id='32', name='Customer 10', email='customer10@example.com'}
+UnitOfWork: Inserting Customer{id='56', name='Customer 34', email='customer34@example.com'}
+UnitOfWork: Inserting Customer{id='78', name='Customer 56', email='customer56@example.com'}
+UnitOfWork: Inserting Customer{id='99', name='Customer 77', email='customer77@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testModernStreamBasedOperations" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.012">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 127
+UnitOfWork: Registered new entity 129
+UnitOfWork: Registered dirty entity 127
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='129', name='Charlie', email='charlie@test.com'}
+UnitOfWork: Inserting Customer{id='127', name='Alice Updated', email='alice@test.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testFunctionalUnitOfWork" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.014">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 4
+UnitOfWork: Registered new entity 5
+UnitOfWork: Registered new entity 6
+UnitOfWork: Registered dirty entity 4
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='6', name='Customer3', email='c3@example.com'}
+UnitOfWork: Inserting Customer{id='5', name='Customer2', email='c2@example.com'}
+UnitOfWork: Inserting Customer{id='4', name='Customer1 Updated', email='c1@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testTraditionalUnitOfWork" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.005">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 2
+UnitOfWork: Registered new entity 3
+UnitOfWork: Registered dirty entity 2
+UnitOfWork: Registered removed entity 3
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='2', name='Alice Smith', email='alice@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testBatchOperations" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.008">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 11
+UnitOfWork: Registered new entity 12
+UnitOfWork: Registered new entity 13
+UnitOfWork: Registered new entity 14
+UnitOfWork: Registered new entity 15
+UnitOfWork: Registered new entity 16
+UnitOfWork: Registered new entity 17
+UnitOfWork: Registered new entity 18
+UnitOfWork: Registered new entity 19
+UnitOfWork: Registered new entity 20
+UnitOfWork: Registered dirty entity 16
+UnitOfWork: Registered removed entity 20
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='16', name='Customer 5 Modified', email='customer5@example.com'}
+UnitOfWork: Inserting Customer{id='14', name='Customer 3', email='customer3@example.com'}
+UnitOfWork: Inserting Customer{id='17', name='Customer 6', email='customer6@example.com'}
+UnitOfWork: Inserting Customer{id='18', name='Customer 7', email='customer7@example.com'}
+UnitOfWork: Inserting Customer{id='13', name='Customer 2', email='customer2@example.com'}
+UnitOfWork: Inserting Customer{id='12', name='Customer 1', email='customer1@example.com'}
+UnitOfWork: Inserting Customer{id='11', name='Customer 0', email='customer0@example.com'}
+UnitOfWork: Inserting Customer{id='15', name='Customer 4', email='customer4@example.com'}
+UnitOfWork: Inserting Customer{id='19', name='Customer 8', email='customer8@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testEntityRelationships" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.004">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 122
+UnitOfWork: Registered new entity 123
+UnitOfWork: Registered dirty entity 122
+UnitOfWork: Registered dirty entity 123
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='123', name='Updated Related', email='related@example.com'}
+UnitOfWork: Inserting Customer{id='122', name='Updated Parent', email='parent@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testConcurrentModification" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.006">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 21
+UnitOfWork: Registered dirty entity 21
+UnitOfWork: Registered dirty entity 21
+]]></system-out>
+  </testcase>
+  <testcase name="testTransactionBoundaries" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.005">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 7
+UnitOfWork: Committing transaction...
+UnitOfWork: Inserting Customer{id='7', name='Transaction Test', email='trans@example.com'}
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testEntityStateTracking" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.003">
+    <system-out><![CDATA[UnitOfWork: Registered new entity 10
+UnitOfWork: Registered dirty entity 10
+UnitOfWork: Registered removed entity 10
+UnitOfWork: Committing transaction...
+UnitOfWork: Transaction committed successfully
+]]></system-out>
+  </testcase>
+</testsuite>

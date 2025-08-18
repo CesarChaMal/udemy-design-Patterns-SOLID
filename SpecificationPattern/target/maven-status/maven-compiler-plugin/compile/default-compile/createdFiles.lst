@@ -1,0 +1,7 @@
+com\balazsholczer\specification\OrSpecification.class
+com\balazsholczer\specification\AndSpecification.class
+com\balazsholczer\specification\App.class
+com\balazsholczer\specification\Product.class
+com\balazsholczer\specification\NotSpecification.class
+com\balazsholczer\specification\ProductSpecifications.class
+com\balazsholczer\specification\Specification.class

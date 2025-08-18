@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.204" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\temp\udemy-design-Patterns-SOLID\FrontControllerPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\FrontControllerPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire15890981850544930694\surefirebooter-20250818211038529_340.jar C:\Users\Lenovo\AppData\Local\Temp\surefire15890981850544930694 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818211038529_338tmp surefire_42-20250818211038529_339tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\FrontControllerPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\FrontControllerPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Users\Lenovo\.sdkman\candidates\java\current"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\temp\udemy-design-Patterns-SOLID\FrontControllerPattern"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire15890981850544930694\surefirebooter-20250818211038529_340.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.28+85-CA"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="C:\temp\udemy-design-Patterns-SOLID\FrontControllerPattern"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Lenovo\.sdkman\candidates\scala\current\bin;C:\Users\Lenovo\.sdkman\candidates\sbt\current\bin;C:\Users\Lenovo\.sdkman\candidates\maven\current\bin;C:\Users\Lenovo\.sdkman\candidates\kotlin\current\bin;C:\Users\Lenovo\.sdkman\candidates\java\current\bin;C:\Users\Lenovo\.sdkman\candidates\groovy\current\bin;C:\Users\Lenovo\.sdkman\candidates\grails\current\bin;C:\Users\Lenovo\.sdkman\candidates\gradle\current\bin;C:\Users\Lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Lenovo\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\Lenovo\anaconda3;C:\Users\Lenovo\anaconda3\Library\mingw-w64\bin;C:\Users\Lenovo\anaconda3\Library\usr\bin;C:\Users\Lenovo\anaconda3\Library\bin;C:\Users\Lenovo\anaconda3\Scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24+36"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.092">
+    <system-out><![CDATA[FunctionalFrontController: Processing GET / params={}
+Functional: Home handler
+Dispatcher: Registered command for /
+FrontController: Processing request - GET / params={}
+FrontController: Pre-processing request
+Dispatcher: Routing / to HomeCommand
+HomeCommand: Processing home page request
+FrontController: Post-processing response
+FrontController: Processing time: 2ms
+FrontController: Request processed - Response{status=200, type=text/html, content='<html><body><h1>Welcome to Home Page</h1></body></html>'}
+]]></system-out>
+  </testcase>
+  <testcase name="testFunctionalFrontController" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.005">
+    <system-out><![CDATA[FunctionalFrontController: Processing GET / params={}
+Functional: Home handler
+FunctionalFrontController: Processing GET /api/users params={}
+Functional: API users handler
+]]></system-out>
+  </testcase>
+  <testcase name="testResponsePostprocessing" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.001">
+    <system-out><![CDATA[FrontController: Processing request - GET /home params={}
+FrontController: Pre-processing request
+Dispatcher: Routing /home to HomeCommand
+HomeCommand: Processing home page request
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=200, type=text/html, content='<html><body><h1>Welcome to Home Page</h1></body></html>'}
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseToString" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.003"/>
+  <testcase name="testRequestAttributes" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.002"/>
+  <testcase name="testRequestParameters" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.001"/>
+  <testcase name="testTraditionalFrontController" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.001">
+    <system-out><![CDATA[FrontController: Processing request - GET /home params={}
+FrontController: Pre-processing request
+Dispatcher: Routing /home to HomeCommand
+HomeCommand: Processing home page request
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=200, type=text/html, content='<html><body><h1>Welcome to Home Page</h1></body></html>'}
+FrontController: Processing request - GET /user params={}
+FrontController: Pre-processing request
+Dispatcher: Routing /user to UserCommand
+UserCommand: Processing user request
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=200, type=text/html, content='<html><body><h1>User List</h1></body></html>'}
+]]></system-out>
+  </testcase>
+  <testcase name="testFunctionalControllerRoutes" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.001">
+    <system-out><![CDATA[FunctionalFrontController: Processing GET / params={}
+Functional: Home handler
+FunctionalFrontController: Processing GET /api/users params={}
+Functional: API users handler
+FunctionalFrontController: Processing GET /api/orders params={}
+Functional: API orders handler
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleRequestMethods" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.004">
+    <system-out><![CDATA[FrontController: Processing request - GET /api/users params={}
+FrontController: Pre-processing request
+Dispatcher: No handler found for /api/users
+FrontController: Post-processing response
+FrontController: Processing time: 1ms
+FrontController: Request processed - Response{status=404, type=text/html, content='<html><body><h1>404 - Page Not Found</h1></body></html>'}
+FrontController: Processing request - POST /api/users params={}
+FrontController: Pre-processing request
+Dispatcher: No handler found for /api/users
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=404, type=text/html, content='<html><body><h1>404 - Page Not Found</h1></body></html>'}
+FrontController: Processing request - PUT /api/users/123 params={}
+FrontController: Pre-processing request
+Dispatcher: No handler found for /api/users/123
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=404, type=text/html, content='<html><body><h1>404 - Page Not Found</h1></body></html>'}
+FrontController: Processing request - DELETE /api/users/123 params={}
+FrontController: Pre-processing request
+Dispatcher: No handler found for /api/users/123
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=404, type=text/html, content='<html><body><h1>404 - Page Not Found</h1></body></html>'}
+]]></system-out>
+  </testcase>
+  <testcase name="testRequestPreprocessing" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.003">
+    <system-out><![CDATA[FrontController: Processing request - GET /test params={}
+FrontController: Pre-processing request
+Dispatcher: No handler found for /test
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=404, type=text/html, content='<html><body><h1>404 - Page Not Found</h1></body></html>'}
+]]></system-out>
+  </testcase>
+  <testcase name="testContentTypeHandling" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.002">
+    <system-out><![CDATA[FunctionalFrontController: Processing GET / params={}
+Functional: Home handler
+FunctionalFrontController: Processing GET /api/users params={}
+Functional: API users handler
+FunctionalFrontController: Processing GET /api/orders params={}
+Functional: API orders handler
+]]></system-out>
+  </testcase>
+  <testcase name="testRequestToString" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.002"/>
+  <testcase name="testCommandPattern" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.002">
+    <system-out><![CDATA[Dispatcher: Registered command for /home
+Dispatcher: Registered command for /user
+FrontController: Processing request - GET /home params={}
+FrontController: Pre-processing request
+Dispatcher: Routing /home to HomeCommand
+HomeCommand: Processing home page request
+FrontController: Post-processing response
+FrontController: Processing time: 1ms
+FrontController: Request processed - Response{status=200, type=text/html, content='<html><body><h1>Welcome to Home Page</h1></body></html>'}
+FrontController: Processing request - GET /user params={}
+FrontController: Pre-processing request
+Dispatcher: Routing /user to UserCommand
+UserCommand: Processing user request
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=200, type=text/html, content='<html><body><h1>User List</h1></body></html>'}
+]]></system-out>
+  </testcase>
+  <testcase name="testErrorHandling" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.004">
+    <system-out><![CDATA[FrontController: Processing request - GET /nonexistent params={}
+FrontController: Pre-processing request
+Dispatcher: No handler found for /nonexistent
+FrontController: Post-processing response
+FrontController: Processing time: 0ms
+FrontController: Request processed - Response{status=404, type=text/html, content='<html><body><h1>404 - Page Not Found</h1></body></html>'}
+FunctionalFrontController: Processing GET /nonexistent params={}
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseProperties" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.004"/>
+  <testcase name="testRequestDispatcher" classname="com.balazsholczer.frontcontroller.FrontControllerPatternTest" time="0.001">
+    <system-out><![CDATA[Dispatcher: Routing /home to HomeCommand
+HomeCommand: Processing home page request
+Dispatcher: No handler found for /unknown
+]]></system-out>
+  </testcase>
+</testsuite>

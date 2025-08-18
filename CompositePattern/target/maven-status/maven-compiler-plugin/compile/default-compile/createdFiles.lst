@@ -1,0 +1,15 @@
+com\balazsholczer\composite\App.class
+com\balazsholczer\composite\Leaf.class
+com\balazsholczer\composite\FunctionalComposite.class
+com\balazsholczer\composite\GenericComposite.class
+com\balazsholczer\composite\FunctionalComposite$LeafNode.class
+com\balazsholczer\composite\FunctionalComposite$Node.class
+com\balazsholczer\composite\Composite.class
+com\balazsholczer\composite\GenericComposite$BranchElement.class
+com\balazsholczer\composite\GenericComposite$LeafElement.class
+com\balazsholczer\composite\Component.class
+com\balazsholczer\composite\TreeComposite.class
+com\balazsholczer\composite\GenericComposite$CompositeElement.class
+com\balazsholczer\composite\FunctionalComposite$CompositeNode.class
+com\balazsholczer\composite\ModernCompositeDemo.class
+com\balazsholczer\composite\TreeComposite$TreeNode.class

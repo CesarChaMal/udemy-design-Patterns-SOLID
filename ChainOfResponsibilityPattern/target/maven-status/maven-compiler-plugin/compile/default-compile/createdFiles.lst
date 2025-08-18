@@ -1,0 +1,15 @@
+com\balazsholczer\chainofresponsibility\EnumChain$RequestRecord.class
+com\balazsholczer\chainofresponsibility\StreamChain$RequestRecord.class
+com\balazsholczer\chainofresponsibility\WarningHandler.class
+com\balazsholczer\chainofresponsibility\ErrorHandler.class
+com\balazsholczer\chainofresponsibility\FunctionalChain$ChainHandler.class
+com\balazsholczer\chainofresponsibility\Request.class
+com\balazsholczer\chainofresponsibility\Handler.class
+com\balazsholczer\chainofresponsibility\EnumChain.class
+com\balazsholczer\chainofresponsibility\App.class
+com\balazsholczer\chainofresponsibility\InfoHandler.class
+com\balazsholczer\chainofresponsibility\StreamChain$Handler.class
+com\balazsholczer\chainofresponsibility\FunctionalChain$RequestRecord.class
+com\balazsholczer\chainofresponsibility\StreamChain.class
+com\balazsholczer\chainofresponsibility\ModernChainDemo.class
+com\balazsholczer\chainofresponsibility\FunctionalChain.class

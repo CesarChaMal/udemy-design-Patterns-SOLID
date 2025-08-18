@@ -1,0 +1,12 @@
+com\balazsholczer\solid\App.class
+com\balazsholczer\solid\improved\StreamSort.class
+com\balazsholczer\solid\improved\App.class
+com\balazsholczer\solid\improved\SortContext.class
+com\balazsholczer\solid\improved\ParallelMergeSort.class
+com\balazsholczer\solid\SorterManager.class
+com\balazsholczer\solid\improved\TimSort.class
+com\balazsholczer\solid\Mergesort.class
+com\balazsholczer\solid\improved\SortStrategy.class
+com\balazsholczer\solid\InsertionSort.class
+com\balazsholczer\solid\Quicksort.class
+com\balazsholczer\solid\Sorter.class

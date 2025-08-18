@@ -1,0 +1,12 @@
+com\balazsholczer\solid\improved\PostgreSQLRepository.class
+com\balazsholczer\solid\DatabaseHandler.class
+com\balazsholczer\solid\App.class
+com\balazsholczer\solid\improved\RedisRepository.class
+com\balazsholczer\solid\OracleDatabase.class
+com\balazsholczer\solid\improved\App.class
+com\balazsholczer\solid\MySQLDatabase.class
+com\balazsholczer\solid\improved\DatabaseRepository.class
+com\balazsholczer\solid\Database.class
+com\balazsholczer\solid\improved\MongoDBRepository.class
+com\balazsholczer\solid\improved\UserService.class
+com\balazsholczer\solid\improved\User.class

@@ -1,0 +1,7 @@
+com\balazsholczer\di\UserService.class
+com\balazsholczer\di\DIContainer.class
+com\balazsholczer\di\User.class
+com\balazsholczer\di\UserRepository.class
+com\balazsholczer\di\FunctionalDIContainer.class
+com\balazsholczer\di\App.class
+com\balazsholczer\di\DatabaseUserRepository.class

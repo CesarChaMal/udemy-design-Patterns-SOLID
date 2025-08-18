@@ -1,0 +1,16 @@
+com\balazsholczer\bridge\OpenGLDrawingAPI.class
+com\balazsholczer\bridge\Circle.class
+com\balazsholczer\bridge\DrawingAPI.class
+com\balazsholczer\bridge\DirectXDrawingAPI.class
+com\balazsholczer\bridge\EnumShapeBridge$ShapeData.class
+com\balazsholczer\bridge\Rectangle.class
+com\balazsholczer\bridge\Shape.class
+com\balazsholczer\bridge\FunctionalShape$ShapeData.class
+com\balazsholczer\bridge\GenericBridge.class
+com\balazsholczer\bridge\ModernBridgeDemo.class
+com\balazsholczer\bridge\FunctionalShape.class
+com\balazsholczer\bridge\EnumShapeBridge$Renderer.class
+com\balazsholczer\bridge\GenericBridge$DrawCommand.class
+com\balazsholczer\bridge\EnumShapeBridge.class
+com\balazsholczer\bridge\App.class
+com\balazsholczer\bridge\FunctionalShape$Renderer.class

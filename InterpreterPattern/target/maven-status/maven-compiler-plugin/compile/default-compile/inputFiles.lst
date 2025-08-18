@@ -1,0 +1,10 @@
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\Expression.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\App.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\ExpressionParser.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\FunctionalInterpreter.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\NumberExpression.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\StreamInterpreter.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\LambdaInterpreter.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\AddExpression.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\ModernInterpreterDemo.java
+C:\temp\udemy-design-Patterns-SOLID\InterpreterPattern\src\main\java\com\balazsholczer\interpreter\SubtractExpression.java
