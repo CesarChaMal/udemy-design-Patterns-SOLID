@@ -25,6 +25,7 @@ mvn test
 
 # Run all tests with detailed reporting
 mvn clean test -Ptest-all-patterns
+```
 
 # Run individual patterns (copy-paste ready commands)
 ```bash
