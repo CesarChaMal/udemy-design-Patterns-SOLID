@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.memento.MementoTest" time="0.127" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.memento.MementoTest" time="0.117" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13772173825654755372\surefirebooter-20250818210917166_150.jar C:\Users\Lenovo\AppData\Local\Temp\surefire13772173825654755372 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818210917166_148tmp surefire_15-20250818210917166_149tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2537457290170594760\surefirebooter-20250818233522216_149.jar C:\Users\Lenovo\AppData\Local\Temp\surefire2537457290170594760 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233522216_147tmp surefire_15-20250818233522216_148tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\MementoPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\MementoPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13772173825654755372\surefirebooter-20250818210917166_150.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2537457290170594760\surefirebooter-20250818233522216_149.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -66,7 +66,7 @@ FunctionalMemento: Undo: Increment by 3
 FunctionalMemento: Redo: Increment by 3
 ]]></system-out>
   </testcase>
-  <testcase name="testMementoPatternBehavior" classname="com.balazsholczer.memento.MementoTest" time="0.044">
+  <testcase name="testMementoPatternBehavior" classname="com.balazsholczer.memento.MementoTest" time="0.04">
     <system-out><![CDATA[Originator: State set to Original
 Originator: Saving state to memento
 Originator: State set to Changed
@@ -118,7 +118,7 @@ StreamMemento: Snapshot saved - State updated (id: auto)
 StreamMemento: Restored state from tag: Initial state
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalMemento" classname="com.balazsholczer.memento.MementoTest" time="0.001">
+  <testcase name="testFunctionalMemento" classname="com.balazsholczer.memento.MementoTest" time="0.003">
     <system-out><![CDATA[FunctionalMemento: Executed - Append:  World
 FunctionalMemento: Executed - Append: !
 FunctionalMemento: Undo: Append: !
@@ -126,7 +126,7 @@ FunctionalMemento: Undo: Append:  World
 FunctionalMemento: Redo: Append:  World
 ]]></system-out>
   </testcase>
-  <testcase name="testTraditionalMemento" classname="com.balazsholczer.memento.MementoTest" time="0.004">
+  <testcase name="testTraditionalMemento" classname="com.balazsholczer.memento.MementoTest" time="0.002">
     <system-out><![CDATA[Originator: State set to State1
 Originator: Saving state to memento
 Caretaker: Memento saved (total: 1)
@@ -144,7 +144,7 @@ FunctionalMemento: Undo: Increment by 5
 FunctionalMemento: Redo: Increment by 5
 ]]></system-out>
   </testcase>
-  <testcase name="testRecordMementoHistory" classname="com.balazsholczer.memento.MementoTest" time="0.003">
+  <testcase name="testRecordMementoHistory" classname="com.balazsholczer.memento.MementoTest" time="0.001">
     <system-out><![CDATA[RecordMemento: State set - First
 RecordMemento: State set - Second
 RecordMemento: State set - Third
@@ -157,7 +157,7 @@ RecordMemento: Undo to - Setup
 RecordMemento: Redo to - Update
 ]]></system-out>
   </testcase>
-  <testcase name="testCareTakerBehavior" classname="com.balazsholczer.memento.MementoTest" time="0.002">
+  <testcase name="testCareTakerBehavior" classname="com.balazsholczer.memento.MementoTest" time="0.003">
     <system-out><![CDATA[Originator: State set to State1
 Originator: Saving state to memento
 Caretaker: Memento saved (total: 1)

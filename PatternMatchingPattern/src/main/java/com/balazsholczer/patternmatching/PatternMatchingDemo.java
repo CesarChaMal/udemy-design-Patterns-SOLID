@@ -199,7 +199,7 @@ public class PatternMatchingDemo {
             System.out.println(analyzeGeometry(geo)));
         
         System.out.println("\n--- Safe Pattern Matching with Null ---");
-        List<Object> objects = List.of(
+        List<Object> objects = Arrays.asList(
             null,
             "",
             "Hello",

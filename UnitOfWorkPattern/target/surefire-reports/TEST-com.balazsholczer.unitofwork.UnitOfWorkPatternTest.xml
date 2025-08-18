@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.529" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.306" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire6551597216119724236\surefirebooter-20250818211022855_282.jar C:\Users\Lenovo\AppData\Local\Temp\surefire6551597216119724236 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818211022855_280tmp surefire_36-20250818211022855_281tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire15397819113546272629\surefirebooter-20250818233728004_281.jar C:\Users\Lenovo\AppData\Local\Temp\surefire15397819113546272629 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233728004_279tmp surefire_36-20250818233728004_280tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\UnitOfWorkPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire6551597216119724236\surefirebooter-20250818211022855_282.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire15397819113546272629\surefirebooter-20250818233728004_281.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,14 +59,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testRollbackCapability" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.206">
+  <testcase name="testRollbackCapability" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.118">
     <system-out><![CDATA[UnitOfWork: Registered new entity 8
 UnitOfWork: Registered new entity 9
 UnitOfWork: Rolling back transaction...
 UnitOfWork: Transaction rolled back
 ]]></system-out>
   </testcase>
-  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.029">
+  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.008">
     <system-out><![CDATA[UnitOfWork: Registered new entity 124
 UnitOfWork: Committing transaction...
 UnitOfWork: Inserting Customer{id='124', name='Test Customer', email='test@example.com'}
@@ -77,14 +77,14 @@ UnitOfWork: Inserting Customer{id='125', name='Test Customer', email='test@examp
 UnitOfWork: Transaction committed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testEntityDirtyTracking" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.011">
+  <testcase name="testEntityDirtyTracking" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.003">
     <system-out><![CDATA[UnitOfWork: Registered new entity 126
 UnitOfWork: Committing transaction...
 UnitOfWork: Inserting Customer{id='126', name='Dirty Customer', email='clean@example.com'}
 UnitOfWork: Transaction committed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testMemoryManagement" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.032">
+  <testcase name="testMemoryManagement" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.018">
     <system-out><![CDATA[UnitOfWork: Registered new entity 22
 UnitOfWork: Registered new entity 23
 UnitOfWork: Registered new entity 24
@@ -289,7 +289,7 @@ UnitOfWork: Inserting Customer{id='99', name='Customer 77', email='customer77@ex
 UnitOfWork: Transaction committed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testModernStreamBasedOperations" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.012">
+  <testcase name="testModernStreamBasedOperations" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.01">
     <system-out><![CDATA[UnitOfWork: Registered new entity 127
 UnitOfWork: Registered new entity 129
 UnitOfWork: Registered dirty entity 127
@@ -299,7 +299,7 @@ UnitOfWork: Inserting Customer{id='127', name='Alice Updated', email='alice@test
 UnitOfWork: Transaction committed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalUnitOfWork" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.014">
+  <testcase name="testFunctionalUnitOfWork" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.012">
     <system-out><![CDATA[UnitOfWork: Registered new entity 4
 UnitOfWork: Registered new entity 5
 UnitOfWork: Registered new entity 6
@@ -321,7 +321,7 @@ UnitOfWork: Inserting Customer{id='2', name='Alice Smith', email='alice@example.
 UnitOfWork: Transaction committed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testBatchOperations" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.008">
+  <testcase name="testBatchOperations" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.01">
     <system-out><![CDATA[UnitOfWork: Registered new entity 11
 UnitOfWork: Registered new entity 12
 UnitOfWork: Registered new entity 13
@@ -347,7 +347,7 @@ UnitOfWork: Inserting Customer{id='19', name='Customer 8', email='customer8@exam
 UnitOfWork: Transaction committed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testEntityRelationships" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.004">
+  <testcase name="testEntityRelationships" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.007">
     <system-out><![CDATA[UnitOfWork: Registered new entity 122
 UnitOfWork: Registered new entity 123
 UnitOfWork: Registered dirty entity 122
@@ -358,13 +358,13 @@ UnitOfWork: Inserting Customer{id='122', name='Updated Parent', email='parent@ex
 UnitOfWork: Transaction committed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testConcurrentModification" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.006">
+  <testcase name="testConcurrentModification" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.007">
     <system-out><![CDATA[UnitOfWork: Registered new entity 21
 UnitOfWork: Registered dirty entity 21
 UnitOfWork: Registered dirty entity 21
 ]]></system-out>
   </testcase>
-  <testcase name="testTransactionBoundaries" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.005">
+  <testcase name="testTransactionBoundaries" classname="com.balazsholczer.unitofwork.UnitOfWorkPatternTest" time="0.003">
     <system-out><![CDATA[UnitOfWork: Registered new entity 7
 UnitOfWork: Committing transaction...
 UnitOfWork: Inserting Customer{id='7', name='Transaction Test', email='trans@example.com'}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.composite.CompositeTest" time="0.088" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.composite.CompositeTest" time="0.069" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire14135842002723070403\surefirebooter-20250818210941365_214.jar C:\Users\Lenovo\AppData\Local\Temp\surefire14135842002723070403 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818210941365_212tmp surefire_25-20250818210941365_213tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire11141832157520232370\surefirebooter-20250818233559786_213.jar C:\Users\Lenovo\AppData\Local\Temp\surefire11141832157520232370 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233559786_211tmp surefire_25-20250818233559786_212tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\CompositePattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\CompositePattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire14135842002723070403\surefirebooter-20250818210941365_214.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire11141832157520232370\surefirebooter-20250818233559786_213.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testEquivalence" classname="com.balazsholczer.composite.CompositeTest" time="0.046">
+  <testcase name="testEquivalence" classname="com.balazsholczer.composite.CompositeTest" time="0.04">
     <system-out><![CDATA[Composite: Root operation
 Leaf: Child1 operation
 Leaf: Child2 operation
@@ -74,23 +74,23 @@ Child1
 Child2
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.005">
+  <testcase name="testFunctionalComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.003">
     <system-out><![CDATA[FunctionalComposite: Root operation
 FunctionalComposite: Leaf1 operation
 FunctionalComposite: Leaf2 operation
 FunctionalComposite: Leaf3 operation
 ]]></system-out>
   </testcase>
-  <testcase name="testTreeComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.004"/>
-  <testcase name="testGenericComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.007"/>
-  <testcase name="testNestedComposites" classname="com.balazsholczer.composite.CompositeTest" time="0.005">
+  <testcase name="testTreeComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.001"/>
+  <testcase name="testGenericComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.006"/>
+  <testcase name="testNestedComposites" classname="com.balazsholczer.composite.CompositeTest" time="0.002">
     <system-out><![CDATA[Composite: Root operation
 Composite: Level1 operation
 Composite: Level2 operation
 Leaf: DeepLeaf operation
 ]]></system-out>
   </testcase>
-  <testcase name="testTraditionalComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.005">
+  <testcase name="testTraditionalComposite" classname="com.balazsholczer.composite.CompositeTest" time="0.003">
     <system-out><![CDATA[Composite: Composite2 operation
 Leaf: Leaf3 operation
 Composite: Composite1 operation

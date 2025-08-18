@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.solid.SolidDTest" time="0.083" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.solid.SolidDTest" time="0.139" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4526110782342567517\surefirebooter-20250818210846019_37.jar C:\Users\Lenovo\AppData\Local\Temp\surefire4526110782342567517 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818210846019_35tmp surefire_4-20250818210846019_36tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12813176764049750897\surefirebooter-20250818233442826_37.jar C:\Users\Lenovo\AppData\Local\Temp\surefire12813176764049750897 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233442826_35tmp surefire_4-20250818233442826_36tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\D\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\D\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4526110782342567517\surefirebooter-20250818210846019_37.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12813176764049750897\surefirebooter-20250818233442826_37.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,59 +59,59 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testDependencyInversionViolation" classname="com.balazsholczer.solid.SolidDTest" time="0.01">
+  <testcase name="testDependencyInversionViolation" classname="com.balazsholczer.solid.SolidDTest" time="0.019">
     <system-out><![CDATA[Connecting to a MySQL database...
 ]]></system-out>
   </testcase>
-  <testcase name="testTraditionalApproach" classname="com.balazsholczer.solid.SolidDTest" time="0.004">
+  <testcase name="testTraditionalApproach" classname="com.balazsholczer.solid.SolidDTest" time="0.005">
     <system-out><![CDATA[Connecting to a MySQL database...
 Disconnecting MySQL database...
 ]]></system-out>
   </testcase>
-  <testcase name="testEquivalence" classname="com.balazsholczer.solid.SolidDTest" time="0.015">
+  <testcase name="testEquivalence" classname="com.balazsholczer.solid.SolidDTest" time="0.038">
     <system-out><![CDATA[Connecting to a MySQL database...
 Disconnecting MySQL database...
 UserService: Getting user from PostgreSQL
 ]]></system-out>
   </testcase>
-  <testcase name="testAbstractionDependency" classname="com.balazsholczer.solid.SolidDTest" time="0.005">
-    <system-out><![CDATA[PostgreSQLRepository: Finding entity improved with SQL query
-UserService: Getting user from PostgreSQL
-PostgreSQLRepository: Finding entity test with SQL query
+  <testcase name="testAbstractionDependency" classname="com.balazsholczer.solid.SolidDTest" time="0.006">
+    <system-out><![CDATA[UserService: Getting user from PostgreSQL
+PostgreSQLRepository: Finding entity improved with SQL query
 ]]></system-out>
   </testcase>
-  <testcase name="testImprovedApproach" classname="com.balazsholczer.solid.SolidDTest" time="0.009"/>
-  <testcase name="testDependencyInversionCompliance" classname="com.balazsholczer.solid.SolidDTest" time="0.008">
+  <testcase name="testImprovedApproach" classname="com.balazsholczer.solid.SolidDTest" time="0.013">
+    <system-out><![CDATA[PostgreSQLRepository: Finding entity test with SQL query
+]]></system-out>
+  </testcase>
+  <testcase name="testDependencyInversionCompliance" classname="com.balazsholczer.solid.SolidDTest" time="0.006"/>
+  <testcase name="testFlexibilityAndTestability" classname="com.balazsholczer.solid.SolidDTest" time="0.032">
     <system-out><![CDATA[UserService: Creating user with PostgreSQL
 UserService: Creating user with PostgreSQL
 UserService: Creating user with MongoDB
-UserService: Creating user with Redis
 UserService: Creating user with PostgreSQL
-UserService: Creating user with PostgreSQL
-]]></system-out>
-  </testcase>
-  <testcase name="testFlexibilityAndTestability" classname="com.balazsholczer.solid.SolidDTest" time="0.013">
-    <system-out><![CDATA[PostgreSQLRepository: Saving entity USER-1755544127861 with ACID transactions
-PostgreSQLRepository: Saving entity USER-1755544127843 with ACID transactions
-UserService: Creating user with MongoDB
-RedisRepository: Caching entity USER-1755544127863 in memory with TTL
-PostgreSQLRepository: Saving entity USER-1755544127850 with ACID transactions
-PostgreSQLRepository: Saving entity USER-1755544127870 with ACID transactions
-MongoDBRepository: Saving document USER-1755544127862 with flexible schema
-MongoDBRepository: Saving document USER-1755544127875 with flexible schema
-UserService: Creating user with PostgreSQL
-PostgreSQLRepository: Saving entity USER-1755544127880 with ACID transactions
 UserService: Getting user from PostgreSQL
 UserService: Getting user from MongoDB
-PostgreSQLRepository: Finding entity test with SQL query
-UserService: Creating user with MongoDB
-MongoDBRepository: Saving document USER-1755544127881 with flexible schema
 UserService: Getting user from Redis
-UserService: Creating user with Redis
+PostgreSQLRepository: Saving entity USER-1755552885152 with ACID transactions
+PostgreSQLRepository: Saving entity USER-1755552885162 with ACID transactions
+PostgreSQLRepository: Saving entity USER-1755552885136 with ACID transactions
+UserService: Creating user with MongoDB
+UserService: Creating user with PostgreSQL
+PostgreSQLRepository: Saving entity USER-1755552885198 with ACID transactions
+MongoDBRepository: Saving document USER-1755552885198 with flexible schema
+MongoDBRepository: Saving document USER-1755552885170 with flexible schema
+UserService: Creating user with PostgreSQL
+PostgreSQLRepository: Finding entity test with SQL query
+PostgreSQLRepository: Saving entity USER-1755552885199 with ACID transactions
+UserService: Creating user with MongoDB
+MongoDBRepository: Saving document USER-1755552885199 with flexible schema
 MongoDBRepository: Finding document test with NoSQL query
-RedisRepository: Caching entity USER-1755544127882 in memory with TTL
+UserService: Creating user with Redis
+RedisRepository: Caching entity USER-1755552885199 in memory with TTL
 RedisRepository: Fast cache lookup for test
+UserService: Creating user with Redis
 UserService: Creating user with Mock Repository
+RedisRepository: Caching entity USER-1755552885207 in memory with TTL
 UserService: Getting user from Mock Repository
 ]]></system-out>
   </testcase>

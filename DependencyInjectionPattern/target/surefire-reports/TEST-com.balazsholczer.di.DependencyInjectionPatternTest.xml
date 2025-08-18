@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.188" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.264" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire10328700055372992513\surefirebooter-20250818211040757_354.jar C:\Users\Lenovo\AppData\Local\Temp\surefire10328700055372992513 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818211040757_352tmp surefire_43-20250818211040757_353tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire3914246704435135467\surefirebooter-20250818233749155_353.jar C:\Users\Lenovo\AppData\Local\Temp\surefire3914246704435135467 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233749155_351tmp surefire_43-20250818233749155_352tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\DependencyInjectionPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\DependencyInjectionPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire10328700055372992513\surefirebooter-20250818211040757_354.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire3914246704435135467\surefirebooter-20250818233749155_353.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,13 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testSingletonScope" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.079">
+  <testcase name="testSingletonScope" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.102">
     <system-out><![CDATA[DIContainer: Registered singleton - UserRepository
 DIContainer: Returning singleton - UserRepository
 DIContainer: Returning singleton - UserRepository
 ]]></system-out>
   </testcase>
-  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.007">
+  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.01">
     <system-out><![CDATA[DIContainer: Registered singleton - UserRepository
 DIContainer: Returning singleton - UserRepository
 UserService: Injected DatabaseUserRepository
@@ -82,7 +82,7 @@ UserService: Getting user - functional
 DatabaseUserRepository: Finding user by id - functional
 ]]></system-out>
   </testcase>
-  <testcase name="testServiceLifecycle" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.001">
+  <testcase name="testServiceLifecycle" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.004">
     <system-out><![CDATA[UserService: Injected DatabaseUserRepository
 DatabaseUserRepository: Saving user to database - 1
 UserService: User created - 1
@@ -94,14 +94,14 @@ UserService: Getting all users
 DatabaseUserRepository: Finding all users
 ]]></system-out>
   </testcase>
-  <testcase name="testContainerRegistrationLogging" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.004">
+  <testcase name="testContainerRegistrationLogging" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.007">
     <system-out><![CDATA[DIContainer: Registered singleton - UserRepository
 DIContainer: Registered factory - String
 FunctionalDI: Registered provider - TestKey
 ]]></system-out>
   </testcase>
-  <testcase name="testContainerErrorHandling" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.002"/>
-  <testcase name="testComplexDependencyGraph" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.004">
+  <testcase name="testContainerErrorHandling" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.005"/>
+  <testcase name="testComplexDependencyGraph" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.008">
     <system-out><![CDATA[DIContainer: Registered factory - UserRepository
 DIContainer: Creating instance via factory - UserRepository
 UserService: Injected DatabaseUserRepository
@@ -117,7 +117,7 @@ UserService: Getting user - user2
 DatabaseUserRepository: Finding user by id - user2
 ]]></system-out>
   </testcase>
-  <testcase name="testTraditionalDependencyInjection" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.002">
+  <testcase name="testTraditionalDependencyInjection" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.003">
     <system-out><![CDATA[DIContainer: Registered singleton - UserRepository
 DIContainer: Returning singleton - UserRepository
 UserService: Injected DatabaseUserRepository
@@ -127,7 +127,7 @@ UserService: Getting user - 1
 DatabaseUserRepository: Finding user by id - 1
 ]]></system-out>
   </testcase>
-  <testcase name="testMultipleServiceInstances" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.003">
+  <testcase name="testMultipleServiceInstances" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.006">
     <system-out><![CDATA[DIContainer: Registered singleton - UserRepository
 DIContainer: Returning singleton - UserRepository
 UserService: Injected DatabaseUserRepository
@@ -155,7 +155,7 @@ UserService: Getting user - 3
 DatabaseUserRepository: Finding user by id - 3
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalDependencyInjection" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.004">
+  <testcase name="testFunctionalDependencyInjection" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.005">
     <system-out><![CDATA[FunctionalDI: Registered provider - UserRepository
 FunctionalDI: Registered provider - UserService
 UserService: Injected DatabaseUserRepository
@@ -165,8 +165,8 @@ UserService: Getting user - 2
 DatabaseUserRepository: Finding user by id - 2
 ]]></system-out>
   </testcase>
-  <testcase name="testUserModel" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.004"/>
-  <testcase name="testUserService" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.003">
+  <testcase name="testUserModel" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.008"/>
+  <testcase name="testUserService" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.006">
     <system-out><![CDATA[UserService: Injected DatabaseUserRepository
 DatabaseUserRepository: Saving user to database - 1
 UserService: User created - 1
@@ -176,18 +176,18 @@ UserService: Getting all users
 DatabaseUserRepository: Finding all users
 ]]></system-out>
   </testcase>
-  <testcase name="testUserRepository" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.001">
+  <testcase name="testUserRepository" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.003">
     <system-out><![CDATA[DatabaseUserRepository: Saving user to database - 1
 DatabaseUserRepository: Finding user by id - 1
 DatabaseUserRepository: Finding all users
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalContainerBasics" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.002">
+  <testcase name="testFunctionalContainerBasics" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.003">
     <system-out><![CDATA[FunctionalDI: Registered provider - String
 FunctionalDI: Registered provider - Integer
 ]]></system-out>
   </testcase>
-  <testcase name="testFactoryRegistration" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.003">
+  <testcase name="testFactoryRegistration" classname="com.balazsholczer.di.DependencyInjectionPatternTest" time="0.002">
     <system-out><![CDATA[DIContainer: Registered factory - UserRepository
 DIContainer: Creating instance via factory - UserRepository
 DIContainer: Creating instance via factory - UserRepository

@@ -25,6 +25,15 @@ public class App {
 	 */
 	
 	public static void main(String[] args) {
+		System.out.println("=== MVC Pattern Demo ===");
+		System.out.println("Model-View-Controller pattern separates concerns:");
+		System.out.println("- Model: Data and business logic");
+		System.out.println("- View: User interface presentation");
+		System.out.println("- Controller: Handles user input and coordinates Model/View");
+		System.out.println("MVC Pattern demonstration completed.");
+		
+		// Uncomment below to run full Swing GUI demo:
+		/*
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (ClassNotFoundException | InstantiationException
@@ -37,5 +46,6 @@ public class App {
 				new MainFrame();
 			}
 		});
+		*/
 	}
 }

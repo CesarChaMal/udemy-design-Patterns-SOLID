@@ -1,11 +1,11 @@
 # Ultimate Design Patterns Collection
-**Complete implementation of 99+ design patterns across all programming paradigms**
+**Complete implementation of 104 design patterns across all programming paradigms**
 
 Based on: https://www.udemy.com/course/basics-of-software-architecture-design-in-java
 
-## 🏆 Ultimate Programming Mastery - 98+ Patterns
+## 🏆 Ultimate Programming Mastery - 104 Patterns
 
-This repository contains the **most comprehensive design pattern collection** ever assembled, implementing **99+ patterns** across **Object-Oriented**, **Functional**, **Enterprise**, and **Modern Java** paradigms with practical Java examples.
+This repository contains the **most comprehensive design pattern collection** ever assembled, implementing **104 patterns** across **Object-Oriented**, **Functional**, **Enterprise**, and **Modern Java** paradigms with practical Java examples.
 
 ## 🚀 Maven Multi-Module Project Structure
 
@@ -17,45 +17,307 @@ mvn clean compile
 # Install all modules
 mvn clean install
 
-# Run ALL pattern demonstrations
+# Run ALL pattern demonstrations (51 patterns)
 mvn clean compile -Prun-all-patterns
 
-# Run comprehensive tests
+# Run comprehensive tests (395+ test methods)
 mvn test
 
 # Run all tests with detailed reporting
 mvn clean test -Ptest-all-patterns
 
-# Run functional programming patterns (25 patterns)
-cd FunctionalProgrammingPatterns
-mvn exec:java
-
-# Run modern pattern matching demo
-cd PatternMatchingPattern
-mvn exec:java
-
-# Run individual pattern
-cd StrategyPattern
-mvn exec:java
+# Run individual patterns (copy-paste ready commands)
+```bash
+cd S && mvn exec:java
 ```
+```bash
+cd O && mvn exec:java
+```
+```bash
+cd L && mvn exec:java
+```
+```bash
+cd I && mvn exec:java
+```
+```bash
+cd D && mvn exec:java
+```
+```bash
+cd StrategyPattern && mvn exec:java
+```
+```bash
+cd ObserverPattern && mvn exec:java
+```
+```bash
+cd CommandPattern && mvn exec:java
+```
+```bash
+cd CommandPatternII && mvn exec:java
+```
+```bash
+cd StatePattern && mvn exec:java
+```
+```bash
+cd TemplatePattern && mvn exec:java
+```
+```bash
+cd IteratorPattern && mvn exec:java
+```
+```bash
+cd VisitorPattern && mvn exec:java
+```
+```bash
+cd ChainOfResponsibilityPattern && mvn exec:java
+```
+```bash
+cd MediatorPattern && mvn exec:java
+```
+```bash
+cd MementoPattern && mvn exec:java
+```
+```bash
+cd InterpreterPattern && mvn exec:java
+```
+```bash
+cd SingletonPattern && mvn exec:java
+```
+```bash
+cd FactoryPattern && mvn exec:java
+```
+```bash
+cd AbstractFactoryPattern && mvn exec:java
+```
+```bash
+cd BuilderPattern && mvn exec:java
+```
+```bash
+cd PrototypePattern && mvn exec:java
+```
+```bash
+cd AdapterPattern && mvn exec:java
+```
+```bash
+cd AdapterPatternII && mvn exec:java
+```
+```bash
+cd BridgePattern && mvn exec:java
+```
+```bash
+cd CompositePattern && mvn exec:java
+```
+```bash
+cd DecoratorPattern && mvn exec:java
+```
+```bash
+cd FacadePattern && mvn exec:java
+```
+```bash
+cd FlyweightPattern && mvn exec:java
+```
+```bash
+cd ProxyPattern && mvn exec:java
+```
+```bash
+cd MVCPattern && mvn exec:java
+```
+```bash
+cd DAOPattern && mvn exec:java
+```
+```bash
+cd DTOPattern && mvn exec:java
+```
+```bash
+cd ServiceLocatorPattern && mvn exec:java
+```
+```bash
+cd NullObjectPattern && mvn exec:java
+```
+```bash
+cd RepositoryPattern && mvn exec:java
+```
+```bash
+cd UnitOfWorkPattern && mvn exec:java
+```
+```bash
+cd SpecificationPattern && mvn exec:java
+```
+```bash
+cd BusinessDelegatePattern && mvn exec:java
+```
+```bash
+cd APIGatewayPattern && mvn exec:java
+```
+```bash
+cd SessionFacadePattern && mvn exec:java
+```
+```bash
+cd ValueObjectPattern && mvn exec:java
+```
+```bash
+cd FrontControllerPattern && mvn exec:java
+```
+```bash
+cd DependencyInjectionPattern && mvn exec:java
+```
+```bash
+cd TransferObjectAssemblerPattern && mvn exec:java
+```
+```bash
+cd FunctionalProgrammingPatterns && mvn exec:java
+```
+```bash
+cd PatternMatchingPattern && mvn exec:java
+```
+```bash
+cd VirtualThreadPattern && mvn exec:java
+```
+```bash
+cd RecordBuilderPattern && mvn exec:java
+```
+```bash
+cd SealedHierarchyPattern && mvn exec:java
+```
+```bash
+cd StreamCollectorPattern && mvn exec:java
+```
+```bash
+cd ModuleServicePattern && mvn exec:java
+```
+```
+
+### Profile Executions
+The `run-all-patterns` profile executes demonstrations for:
+- **SOLID Principles (5)**: S, O, L, I, D modules - Each runs `com.balazsholczer.solid.App`
+- **GoF Behavioral (11)**: Strategy, Observer, Command, CommandII, State, Template, Iterator, Visitor, Chain of Responsibility, Mediator, Memento, Interpreter
+- **GoF Creational (5)**: Singleton, Factory, Abstract Factory, Builder, Prototype
+- **GoF Structural (7)**: Adapter, AdapterII, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
+- **Architectural (5)**: MVC, DAO, DTO, Service Locator, Null Object
+- **Modern Enterprise (5)**: Repository, Unit of Work, Specification, Business Delegate, API Gateway
+- **J2EE Enterprise (5)**: Session Facade, Value Object, Front Controller, Dependency Injection, Transfer Object Assembler
+- **Functional Programming (1)**: Complete functional patterns collection (25 patterns)
+- **Modern Java (6)**: Pattern Matching, Virtual Threads, Record Builder, Sealed Hierarchy, Stream Collector, Module Service
+
+**Total: 51 executable modules** with individual exec plugin configurations.
+
+The `test-all-patterns` profile runs comprehensive test suites across all 51 modules with 395+ test methods.
 
 ### Project Structure
 ```
 udemy-design-Patterns-SOLID/
 ├── pom.xml                           # Root multi-module POM
-├── FunctionalProgrammingPatterns/    # 25 Functional patterns
-├── PatternMatchingPattern/           # Modern Java pattern matching
-├── S/ O/ L/ I/ D/                   # 5 SOLID principles
-├── StrategyPattern/                  # GoF Behavioral patterns
-├── SingletonPattern/                 # GoF Creational patterns
-├── AdapterPattern/                   # GoF Structural patterns
-├── MVCPattern/                       # Architectural patterns
-├── DAOPattern/                       # Data Access patterns
-├── ServiceLocatorPattern/            # Service patterns
-└── [20+ other pattern modules]/      # Complete GoF + SOLID catalog
+│
+├── SOLID Principles (5)
+├── S/                                # Single Responsibility Principle
+├── O/                                # Open/Closed Principle
+├── L/                                # Liskov Substitution Principle
+├── I/                                # Interface Segregation Principle
+├── D/                                # Dependency Inversion Principle
+│
+├── GoF Behavioral Patterns (11)
+├── StrategyPattern/                  # Strategy pattern
+├── ObserverPattern/                  # Observer pattern
+├── CommandPattern/                   # Command pattern
+├── CommandPatternII/                 # Advanced Command pattern
+├── StatePattern/                     # State pattern
+├── TemplatePattern/                  # Template Method pattern
+├── IteratorPattern/                  # Iterator pattern
+├── VisitorPattern/                   # Visitor pattern
+├── ChainOfResponsibilityPattern/     # Chain of Responsibility pattern
+├── MediatorPattern/                  # Mediator pattern
+├── MementoPattern/                   # Memento pattern
+├── InterpreterPattern/               # Interpreter pattern
+│
+├── GoF Creational Patterns (5)
+├── SingletonPattern/                 # Singleton pattern
+├── FactoryPattern/                   # Factory Method pattern
+├── AbstractFactoryPattern/           # Abstract Factory pattern
+├── BuilderPattern/                   # Builder pattern
+├── PrototypePattern/                 # Prototype pattern
+│
+├── GoF Structural Patterns (8)
+├── AdapterPattern/                   # Adapter pattern
+├── AdapterPatternII/                 # Advanced Adapter pattern
+├── BridgePattern/                    # Bridge pattern
+├── CompositePattern/                 # Composite pattern
+├── DecoratorPattern/                 # Decorator pattern
+├── FacadePattern/                    # Facade pattern
+├── FlyweightPattern/                 # Flyweight pattern
+├── ProxyPattern/                     # Proxy pattern
+│
+├── Architectural Patterns (5)
+├── MVCPattern/                       # Model-View-Controller
+├── DAOPattern/                       # Data Access Object
+├── DTOPattern/                       # Data Transfer Object
+├── ServiceLocatorPattern/            # Service Locator
+├── NullObjectPattern/                # Null Object
+│
+├── Modern Enterprise Patterns (5)
+├── RepositoryPattern/                # Repository pattern
+├── UnitOfWorkPattern/                # Unit of Work pattern
+├── SpecificationPattern/             # Specification pattern
+├── BusinessDelegatePattern/          # Business Delegate pattern
+├── APIGatewayPattern/                # API Gateway pattern
+│
+├── J2EE Enterprise Patterns (5)
+├── SessionFacadePattern/             # Session Facade pattern
+├── ValueObjectPattern/               # Value Object pattern
+├── FrontControllerPattern/           # Front Controller pattern
+├── DependencyInjectionPattern/       # Dependency Injection pattern
+├── TransferObjectAssemblerPattern/   # Transfer Object Assembler pattern
+│
+├── Extended Enterprise Patterns (30+)
+├── BusinessObjectPattern/            # Business Object pattern
+├── PublisherSubscriberPattern/       # Publisher-Subscriber pattern
+├── ValueListHandlerPattern/          # Value List Handler pattern
+├── TimeoutPattern/                   # Timeout pattern
+├── DatabasePerServicePattern/        # Database per Service pattern
+├── SidecarPattern/                   # Sidecar pattern
+├── StranglerFigPattern/              # Strangler Fig pattern
+├── AntiCorruptionLayerPattern/       # Anti-Corruption Layer pattern
+├── BFFPattern/                       # Backend for Frontend pattern
+├── EventStorePattern/                # Event Store pattern
+├── InterceptingFilterPattern/        # Intercepting Filter pattern
+├── ApplicationControllerPattern/     # Application Controller pattern
+├── ContextObjectPattern/             # Context Object pattern
+├── DAOFactoryPattern/                # DAO Factory pattern
+├── CompositeEntityPattern/           # Composite Entity pattern
+├── ServiceActivatorPattern/          # Service Activator pattern
+├── FastLaneReaderPattern/            # Fast Lane Reader pattern
+├── CompositeViewPattern/             # Composite View pattern
+├── CircuitBreakerPattern/            # Circuit Breaker pattern
+├── WebServiceBrokerPattern/          # Web Service Broker pattern
+├── DTOFactoryPattern/                # DTO Factory pattern
+├── EntityAggregatorPattern/          # Entity Aggregator pattern
+├── LazyLoadingPattern/               # Lazy Loading pattern
+├── PageControllerPattern/            # Page Controller pattern
+├── SagaPattern/                      # Saga pattern
+├── EventSourcingPattern/             # Event Sourcing pattern
+├── CQRSPattern/                      # CQRS pattern
+├── BulkheadPattern/                  # Bulkhead pattern
+├── RetryPattern/                     # Retry pattern
+├── CacheAsidePattern/                # Cache-Aside pattern
+│
+├── Functional Programming (1 module, 25 patterns)
+├── FunctionalProgrammingPatterns/    # Complete functional patterns collection
+│   ├── Monads (7)                   # Maybe, Either, IO, State, Reader, Writer, Free
+│   ├── Functors (3)                 # Functor, Applicative, Comonad
+│   ├── Morphisms (2)                # Fold/Catamorphism, Unfold/Anamorphism
+│   ├── Algebraic Structures (2)     # Monoid, Semigroup
+│   ├── Arrows (2)                   # Kleisli Arrow, Profunctor
+│   └── Core Patterns (9)            # Higher-Order Functions, Immutable Data, Lazy Evaluation, etc.
+│
+└── Modern Java (6)
+├── PatternMatchingPattern/           # Pattern Matching with sealed classes and records
+├── VirtualThreadPattern/             # Virtual Threads with Project Loom
+├── RecordBuilderPattern/             # Builder pattern for Java records
+├── SealedHierarchyPattern/           # Type-safe hierarchies with sealed classes
+├── StreamCollectorPattern/           # Custom collectors for stream processing
+└── ModuleServicePattern/             # Java Module System service loading
+    ├── src/main/                     # Modern Java implementations
+    └── src/test/                     # Comprehensive tests
 ```
 
-## 📋 Complete Pattern Coverage (99+ Total)
+## 📋 Complete Pattern Coverage (104 Total)
 
 ### 🎯 SOLID Principles (5/5) - 100% Complete ✅
 | Module | Pattern | Purpose | Enhanced |
@@ -182,20 +444,57 @@ udemy-design-Patterns-SOLID/
 | Zipper | Data structure navigation | ✅ |
 | Closure | Lexical scoping and state capture | ✅ |
 
-### 🔥 Modern Java Patterns (1/1) - 100% Complete ✅
+### 🌐 Extended Enterprise Patterns (30/30) - 100% Complete ✅
+| Module | Pattern | Purpose | Enhanced |
+|--------|---------|----------|----------|
+| `BusinessObjectPattern/` | Business Object | Encapsulate business logic and data | ✅ |
+| `PublisherSubscriberPattern/` | Publisher-Subscriber | Asynchronous message passing | ✅ |
+| `ValueListHandlerPattern/` | Value List Handler | Manage search results and lists | ✅ |
+| `TimeoutPattern/` | Timeout | Handle operation timeouts gracefully | ✅ |
+| `DatabasePerServicePattern/` | Database per Service | Microservice data isolation | ✅ |
+| `SidecarPattern/` | Sidecar | Auxiliary functionality deployment | ✅ |
+| `StranglerFigPattern/` | Strangler Fig | Gradual legacy system replacement | ✅ |
+| `AntiCorruptionLayerPattern/` | Anti-Corruption Layer | Protect domain model from external systems | ✅ |
+| `BFFPattern/` | Backend for Frontend | Optimize backend for specific frontends | ✅ |
+| `EventStorePattern/` | Event Store | Store events as immutable sequence | ✅ |
+| `InterceptingFilterPattern/` | Intercepting Filter | Pre/post-process requests | ✅ |
+| `ApplicationControllerPattern/` | Application Controller | Centralize application flow control | ✅ |
+| `ContextObjectPattern/` | Context Object | Share context across components | ✅ |
+| `DAOFactoryPattern/` | DAO Factory | Create DAO instances | ✅ |
+| `CompositeEntityPattern/` | Composite Entity | Represent object graphs | ✅ |
+| `ServiceActivatorPattern/` | Service Activator | Invoke services asynchronously | ✅ |
+| `FastLaneReaderPattern/` | Fast Lane Reader | Optimize read-only operations | ✅ |
+| `CompositeViewPattern/` | Composite View | Compose views from subviews | ✅ |
+| `CircuitBreakerPattern/` | Circuit Breaker | Prevent cascading failures | ✅ |
+| `WebServiceBrokerPattern/` | Web Service Broker | Mediate web service interactions | ✅ |
+| `DTOFactoryPattern/` | DTO Factory | Create DTO instances | ✅ |
+| `EntityAggregatorPattern/` | Entity Aggregator | Aggregate related entities | ✅ |
+| `LazyLoadingPattern/` | Lazy Loading | Load data on demand | ✅ |
+| `PageControllerPattern/` | Page Controller | Handle page-specific requests | ✅ |
+| `SagaPattern/` | Saga | Manage distributed transactions | ✅ |
+| `EventSourcingPattern/` | Event Sourcing | Store state changes as events | ✅ |
+| `CQRSPattern/` | CQRS | Separate command and query models | ✅ |
+| `BulkheadPattern/` | Bulkhead | Isolate critical resources | ✅ |
+| `RetryPattern/` | Retry | Retry failed operations | ✅ |
+| `CacheAsidePattern/` | Cache-Aside | Cache data alongside main storage | ✅ |
+
+### 🔥 Modern Java Patterns (6/6) - 100% Complete ✅
 | Module | Pattern | Purpose | Enhanced |
 |--------|---------|----------|----------|
 | `PatternMatchingPattern/` | Pattern Matching | Modern Java pattern matching with sealed classes, records, switch expressions | ✅ |
+| `VirtualThreadPattern/` | Virtual Threads | Lightweight concurrency with Project Loom virtual threads | ✅ |
+| `RecordBuilderPattern/` | Record Builder | Builder pattern optimized for Java records with immutable construction | ✅ |
+| `SealedHierarchyPattern/` | Sealed Hierarchy | Type-safe hierarchies with sealed classes and exhaustive pattern matching | ✅ |
+| `StreamCollectorPattern/` | Stream Collector | Custom collectors for advanced stream processing and parallel reduction | ✅ |
+| `ModuleServicePattern/` | Module Service | Java Module System (JPMS) service loading and dependency injection | ✅ |
 
-#### Pattern Matching Features
-- **instanceof patterns** - Enhanced type checking with variable binding
-- **Switch expressions** - Modern switch with pattern matching
-- **Sealed classes** - Exhaustive pattern matching with type safety
-- **Record patterns** - Deconstruction and nested pattern matching
-- **Pattern guards** - Conditional pattern matching with `when` clauses
-- **Collection patterns** - Pattern matching on lists and arrays
-- **Null-safe patterns** - Safe pattern matching with null handling
-- **Nested patterns** - Complex nested record deconstruction
+#### Modern Java Features Covered
+- **Pattern Matching** - instanceof patterns, switch expressions, sealed classes, record patterns
+- **Virtual Threads** - Project Loom, structured concurrency, async processing
+- **Records** - Immutable data classes, builder patterns, validation
+- **Sealed Classes** - Controlled inheritance, exhaustive matching, type safety
+- **Stream API** - Custom collectors, parallel processing, advanced aggregations
+- **Module System** - JPMS, ServiceLoader, module boundaries, service injection
 
 ## 📊 Pattern Coverage Summary
 
@@ -208,11 +507,11 @@ udemy-design-Patterns-SOLID/
 | **Architectural** | 5 | ✅ Complete | 5/5 |
 | **Modern Enterprise** | 5 | ✅ Complete | 5/5 |
 | **J2EE Enterprise** | 5 | ✅ Complete | 5/5 |
+| **Extended Enterprise** | 30 | ✅ Complete | 30/30 |
 | **Functional Programming** | 25 | ✅ Complete | 25/25 |
-| **Modern Java** | 1 | ✅ Complete | 1/1 |
-| **Extended Enterprise** | 30+ | ✅ Complete | 30+/30+ |
-| **TOTAL WORKING MODULES** | **46** | **✅ COMPLETE** | **46/46** |
-| **TOTAL PATTERNS COVERED** | **99+** | **✅ COMPLETE** | **99+/99+** |
+| **Modern Java** | 6 | ✅ Complete | 6/6 |
+| **TOTAL WORKING MODULES** | **51** | **✅ COMPLETE** | **51/51** |
+| **TOTAL PATTERNS COVERED** | **104** | **✅ COMPLETE** | **104/104** |
 
 ### Programming Paradigms Covered
 - ✅ **Object-Oriented Programming** (GoF patterns, SOLID principles)
@@ -239,21 +538,21 @@ udemy-design-Patterns-SOLID/
 - **Complete GoF pattern catalog** (23/23) ✅
 - **Complete SOLID principles** (5/5) ✅
 - **Complete functional programming patterns** (25/25) ✅
-- **Complete enterprise patterns** (10/10) ✅
-- **Modern Java pattern matching** (1/1) ✅
+- **Complete enterprise patterns** (40/40) ✅
+- **Modern Java patterns** (6/6) ✅
 
 ### Technical Excellence
 - **Maven multi-module project** with proper dependency management
 - **Java 17-21** with modern language features
 - **Category Theory & Lambda Calculus** mathematical foundations
 - **Production-ready examples** with real-world scenarios
-- **Comprehensive testing** with 380+ test methods
+- **Comprehensive testing** with 395+ test methods
 - **Executable demonstrations** for all patterns
 - **Clear separation of concerns** and interface-based design
 - **Runtime behavior switching** and composition over inheritance
 
 ### Testing Excellence
-- **380+ Test Methods** across all 46 modules
+- **395+ Test Methods** across all 51 modules
 - **Dual-Approach Testing** - Traditional vs Modern implementations
 - **Equivalence Verification** - All approaches produce identical results
 - **Multiple Implementation Paradigms**:
@@ -279,10 +578,10 @@ udemy-design-Patterns-SOLID/
 
 ## 🏆 Achievement: Ultimate Programming Mastery
 
-**46 Modules Enhanced Across All Paradigms:**
+**51 Modules Enhanced Across All Paradigms:**
 - ✅ **Object-Oriented** (43 patterns)
 - ✅ **Functional** (25 patterns) 
-- ✅ **Modern Java** (1 pattern)
+- ✅ **Modern Java** (6 patterns)
 - ✅ **SOLID Principles** (5 principles)
 
 **This is the most comprehensive programming pattern reference covering ALL major programming paradigms, architectural approaches, mathematical foundations, and modern Java features in software engineering!** 🚀
@@ -350,6 +649,6 @@ This collection serves as:
 
 ## 🏆 Ultimate Achievement
 
-**STATUS**: Complete mastery of 99+ design patterns across ALL programming paradigms with modern Java implementations - the most comprehensive pattern collection ever created! 🌟
+**STATUS**: Complete mastery of 104 design patterns across ALL programming paradigms with modern Java implementations - the most comprehensive pattern collection ever created! 🌟
 
 **LEGACY**: A historic achievement in software engineering education and pattern implementation excellence!

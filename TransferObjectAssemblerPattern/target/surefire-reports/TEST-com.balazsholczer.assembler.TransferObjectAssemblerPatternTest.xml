@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.24" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.352" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12564204074961413653\surefirebooter-20250818211042823_370.jar C:\Users\Lenovo\AppData\Local\Temp\surefire12564204074961413653 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818211042823_368tmp surefire_44-20250818211042823_369tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2934658600571096911\surefirebooter-20250818233751906_369.jar C:\Users\Lenovo\AppData\Local\Temp\surefire2934658600571096911 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233751906_367tmp surefire_44-20250818233751906_368tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\TransferObjectAssemblerPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\TransferObjectAssemblerPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire12564204074961413653\surefirebooter-20250818211042823_370.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2934658600571096911\surefirebooter-20250818233751906_369.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.118">
+  <testcase name="testEquivalenceAcrossApproaches" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.174">
     <system-out><![CDATA[CustomerAssembler: Assembling complete customer data for 1
 CustomerDAO: Finding customer 1
 OrderDAO: Finding orders for customer 1
@@ -73,7 +73,7 @@ FunctionalAssembler: Adding orders
 OrderDAO: Finding orders for customer 1
 ]]></system-out>
   </testcase>
-  <testcase name="testBothCustomers" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.003">
+  <testcase name="testBothCustomers" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.006">
     <system-out><![CDATA[CustomerAssembler: Assembling complete customer data for 1
 CustomerDAO: Finding customer 1
 OrderDAO: Finding orders for customer 1
@@ -86,7 +86,7 @@ AccountDAO: Finding account for customer 2
 CustomerAssembler: Assembly completed
 ]]></system-out>
   </testcase>
-  <testcase name="testAssemblerBuilder" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.006">
+  <testcase name="testAssemblerBuilder" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.009">
     <system-out><![CDATA[FunctionalAssembler: Basic assembly for 2
 CustomerDAO: Finding customer 2
 AssemblerBuilder: Adding orders
@@ -95,14 +95,14 @@ FunctionalAssembler: Adding account
 AccountDAO: Finding account for customer 2
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalWithOrders" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.003">
+  <testcase name="testFunctionalWithOrders" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.007">
     <system-out><![CDATA[FunctionalAssembler: Basic assembly for 1
 CustomerDAO: Finding customer 1
 FunctionalAssembler: Adding orders
 OrderDAO: Finding orders for customer 1
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalBasicAssembler" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.001">
+  <testcase name="testFunctionalBasicAssembler" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.005">
     <system-out><![CDATA[FunctionalAssembler: Basic assembly for 2
 CustomerDAO: Finding customer 2
 ]]></system-out>
@@ -112,12 +112,12 @@ CustomerDAO: Finding customer 2
 CustomerDAO: Finding customer 999
 ]]></system-out>
   </testcase>
-  <testcase name="testBasicAssembly" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.003">
+  <testcase name="testBasicAssembly" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.002">
     <system-out><![CDATA[CustomerAssembler: Assembling basic customer data for 2
 CustomerDAO: Finding customer 2
 ]]></system-out>
   </testcase>
-  <testcase name="testTraditionalAssembler" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.003">
+  <testcase name="testTraditionalAssembler" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.004">
     <system-out><![CDATA[CustomerAssembler: Assembling complete customer data for 1
 CustomerDAO: Finding customer 1
 OrderDAO: Finding orders for customer 1
@@ -125,14 +125,14 @@ AccountDAO: Finding account for customer 1
 CustomerAssembler: Assembly completed
 ]]></system-out>
   </testcase>
-  <testcase name="testAssemblerBuilderPartial" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.002">
+  <testcase name="testAssemblerBuilderPartial" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.003">
     <system-out><![CDATA[FunctionalAssembler: Basic assembly for 1
 CustomerDAO: Finding customer 1
 AssemblerBuilder: Adding orders
 OrderDAO: Finding orders for customer 1
 ]]></system-out>
   </testcase>
-  <testcase name="testAssemblyWithOrders" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.004">
+  <testcase name="testAssemblyWithOrders" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.005">
     <system-out><![CDATA[CustomerAssembler: Assembling customer with orders for 1
 CustomerDAO: Finding customer 1
 OrderDAO: Finding orders for customer 1
@@ -146,7 +146,7 @@ AccountDAO: Finding account for customer 2
 OrderDAO: Finding orders for customer 2
 ]]></system-out>
   </testcase>
-  <testcase name="testAssemblerBuilderAccountOnly" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.004">
+  <testcase name="testAssemblerBuilderAccountOnly" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.003">
     <system-out><![CDATA[FunctionalAssembler: Basic assembly for 2
 CustomerDAO: Finding customer 2
 FunctionalAssembler: Adding account
@@ -160,7 +160,7 @@ FunctionalAssembler: Adding account
 AccountDAO: Finding account for customer 2
 ]]></system-out>
   </testcase>
-  <testcase name="testCustomerToString" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.011">
+  <testcase name="testCustomerToString" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.017">
     <system-out><![CDATA[CustomerAssembler: Assembling complete customer data for 1
 CustomerDAO: Finding customer 1
 OrderDAO: Finding orders for customer 1
@@ -168,7 +168,7 @@ AccountDAO: Finding account for customer 1
 CustomerAssembler: Assembly completed
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalFullAssembler" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.002">
+  <testcase name="testFunctionalFullAssembler" classname="com.balazsholczer.assembler.TransferObjectAssemblerPatternTest" time="0.003">
     <system-out><![CDATA[FunctionalAssembler: Basic assembly for 1
 CustomerDAO: Finding customer 1
 FunctionalAssembler: Adding account

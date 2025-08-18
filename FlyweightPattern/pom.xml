@@ -7,8 +7,8 @@
 
     <parent>
         <groupId>com.balazsholczer</groupId>
-        <artifactId>ultimate-design-patterns</artifactId>
-        <version>1.0.0</version>
+        <artifactId>udemy-design-patterns-solid</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>flyweight-pattern</artifactId>
@@ -28,4 +28,43 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>run-all-patterns</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>3.1.0</version>
+                        <executions>
+                            <execution>
+                                <phase>compile</phase>
+                                <goals>
+                                    <goal>java</goal>
+                                </goals>
+                                <configuration>
+                                    <mainClass>com.balazsholczer.flyweight.App</mainClass>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.balazsholczer.flyweight.App</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

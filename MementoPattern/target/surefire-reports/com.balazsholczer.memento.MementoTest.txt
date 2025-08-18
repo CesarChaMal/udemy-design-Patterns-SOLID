@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.balazsholczer.memento.MementoTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in com.balazsholczer.memento.MementoTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in com.balazsholczer.memento.MementoTest

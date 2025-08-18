@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4233903574805655024\surefirebooter-20250818210828775_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire4233903574805655024 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818210828775_1tmp surefire_0-20250818210828775_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire11683725605411024090\surefirebooter-20250818233425158_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire11683725605411024090 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233425158_1tmp surefire_0-20250818233425158_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\S\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\S\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4233903574805655024\surefirebooter-20250818210828775_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire11683725605411024090\surefirebooter-20250818233425158_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,20 +59,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testTraditionalApproach" classname="com.balazsholczer.solid.SolidSTest" time="0.016">
+  <testcase name="testTraditionalApproach" classname="com.balazsholczer.solid.SolidSTest" time="0.025">
     <system-out><![CDATA[Saveing the book GoF - 400
 ]]></system-out>
   </testcase>
-  <testcase name="testEquivalence" classname="com.balazsholczer.solid.SolidSTest" time="0.04">
+  <testcase name="testEquivalence" classname="com.balazsholczer.solid.SolidSTest" time="0.034">
     <system-out><![CDATA[Saveing the book Test Author - 200
 BookValidator: Book validation passed
 ]]></system-out>
   </testcase>
-  <testcase name="testResponsibilityIsolation" classname="com.balazsholczer.solid.SolidSTest" time="0.02">
+  <testcase name="testResponsibilityIsolation" classname="com.balazsholczer.solid.SolidSTest" time="0.015">
     <system-out><![CDATA[BookValidator: Book validation passed
 ]]></system-out>
   </testcase>
-  <testcase name="testImprovedApproach" classname="com.balazsholczer.solid.SolidSTest" time="0.013">
+  <testcase name="testImprovedApproach" classname="com.balazsholczer.solid.SolidSTest" time="0.012">
     <system-out><![CDATA[InMemoryBookRepository: Saved book 978-0201633610
 BookValidator: Book validation passed
 InMemoryBookRepository: Saved book 978-0201633610
@@ -81,9 +81,9 @@ BookService: Creating book Design Patterns
 InMemoryBookRepository: Saved book 978-0201633610
 ]]></system-out>
   </testcase>
-  <testcase name="testSingleResponsibilityViolation" classname="com.balazsholczer.solid.SolidSTest" time="0.002">
+  <testcase name="testSingleResponsibilityViolation" classname="com.balazsholczer.solid.SolidSTest" time="0.004">
     <system-out><![CDATA[Saveing the book Author - 100
 ]]></system-out>
   </testcase>
-  <testcase name="testSingleResponsibilityCompliance" classname="com.balazsholczer.solid.SolidSTest" time="0.003"/>
+  <testcase name="testSingleResponsibilityCompliance" classname="com.balazsholczer.solid.SolidSTest" time="0.002"/>
 </testsuite>

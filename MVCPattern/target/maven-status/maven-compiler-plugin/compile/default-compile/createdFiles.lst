@@ -3,7 +3,6 @@ com\balazsholczer\mvc\ComprehensiveMVCApp.class
 com\balazsholczer\mvc\view\FormListener.class
 com\balazsholczer\mvc\ImprovedApp.class
 com\balazsholczer\mvc\model\Database.class
-com\balazsholczer\mvc\App$1.class
 com\balazsholczer\mvc\model\Person.class
 com\balazsholczer\mvc\view\MainFrame.class
 com\balazsholczer\mvc\view\FormPanel.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.232" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.299" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire10378329312210777382\surefirebooter-20250818211033229_323.jar C:\Users\Lenovo\AppData\Local\Temp\surefire10378329312210777382 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818211033229_321tmp surefire_40-20250818211033229_322tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire17200028457085221407\surefirebooter-20250818233740557_322.jar C:\Users\Lenovo\AppData\Local\Temp\surefire17200028457085221407 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233740557_320tmp surefire_40-20250818233740557_321tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\SessionFacadePattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\SessionFacadePattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire10378329312210777382\surefirebooter-20250818211033229_323.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire17200028457085221407\surefirebooter-20250818233740557_322.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,11 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testCoarseGrainedOperations" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.118">
+  <testcase name="testCoarseGrainedOperations" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.141">
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer PERF-TEST
 OrderService: Creating order for customer PERF-TEST
-PaymentService: Processing payment of 300 for order ORD-1755544234508
+PaymentService: Processing payment of 300 for order ORD-1755553062306
 OrderSessionFacade: Order completed successfully
 ]]></system-out>
   </testcase>
@@ -71,12 +71,12 @@ OrderSessionFacade: Order completed successfully
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-123
 OrderService: Creating order for customer CUST-123
-PaymentService: Processing payment of 0 for order ORD-1755544234575
+PaymentService: Processing payment of 0 for order ORD-1755553062376
 OrderSessionFacade: Order completed successfully
 OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer null
 OrderService: Creating order for customer null
-PaymentService: Processing payment of 300 for order ORD-1755544234579
+PaymentService: Processing payment of 300 for order ORD-1755553062379
 OrderSessionFacade: Order completed successfully
 ]]></system-out>
   </testcase>
@@ -84,87 +84,87 @@ OrderSessionFacade: Order completed successfully
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer EQUIV-TEST
 OrderService: Creating order for customer EQUIV-TEST
-PaymentService: Processing payment of 300 for order ORD-1755544234585
+PaymentService: Processing payment of 300 for order ORD-1755553062384
 OrderSessionFacade: Order completed successfully
 ]]></system-out>
   </testcase>
   <testcase name="testOrderDataStructures" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.007"/>
-  <testcase name="testComplexOrderProcessing" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.003">
+  <testcase name="testComplexOrderProcessing" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.004">
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-001
 OrderService: Creating order for customer CUST-001
-PaymentService: Processing payment of 100 for order ORD-1755544234600
+PaymentService: Processing payment of 100 for order ORD-1755553062401
 OrderSessionFacade: Order completed successfully
 OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-002
 OrderService: Creating order for customer CUST-002
-PaymentService: Processing payment of 500 for order ORD-1755544234600
+PaymentService: Processing payment of 500 for order ORD-1755553062402
 OrderSessionFacade: Order completed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testStreamBasedProcessing" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.007">
+  <testcase name="testStreamBasedProcessing" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.012">
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-001
 OrderService: Creating order for customer CUST-001
-PaymentService: Processing payment of 300 for order ORD-1755544234608
+PaymentService: Processing payment of 300 for order ORD-1755553062412
 OrderSessionFacade: Order completed successfully
 OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-002
 OrderService: Creating order for customer CUST-002
-PaymentService: Processing payment of 300 for order ORD-1755544234608
+PaymentService: Processing payment of 300 for order ORD-1755553062412
 OrderSessionFacade: Order completed successfully
 OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-003
 OrderService: Creating order for customer CUST-003
-PaymentService: Processing payment of 300 for order ORD-1755544234608
+PaymentService: Processing payment of 300 for order ORD-1755553062413
 OrderSessionFacade: Order completed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testOrderCancellation" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.003">
+  <testcase name="testOrderCancellation" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.004">
     <system-out><![CDATA[OrderSessionFacade: Cancelling order ORD-12345
 OrderService: Retrieving order ORD-12345
 PaymentService: Refunding 200 for order ORD-12345
 ]]></system-out>
   </testcase>
-  <testcase name="testServiceIntegration" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.003">
+  <testcase name="testServiceIntegration" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.002">
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer INTEGRATION-TEST
 OrderService: Creating order for customer INTEGRATION-TEST
-PaymentService: Processing payment of 200 for order ORD-1755544234620
+PaymentService: Processing payment of 200 for order ORD-1755553062430
 OrderSessionFacade: Order completed successfully
-OrderSessionFacade: Cancelling order ORD-1755544234620
-OrderService: Retrieving order ORD-1755544234620
-PaymentService: Refunding 200 for order ORD-1755544234620
+OrderSessionFacade: Cancelling order ORD-1755553062430
+OrderService: Retrieving order ORD-1755553062430
+PaymentService: Refunding 200 for order ORD-1755553062430
 ]]></system-out>
   </testcase>
-  <testcase name="testTraditionalSessionFacade" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.003">
+  <testcase name="testTraditionalSessionFacade" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.005">
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-123
 OrderService: Creating order for customer CUST-123
-PaymentService: Processing payment of 300 for order ORD-1755544234625
+PaymentService: Processing payment of 300 for order ORD-1755553062436
 OrderSessionFacade: Order completed successfully
 OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer CUST-456
 OrderService: Creating order for customer CUST-456
-PaymentService: Processing payment of 300 for order ORD-1755544234626
+PaymentService: Processing payment of 300 for order ORD-1755553062438
 OrderSessionFacade: Order completed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testServiceCoordination" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.003">
+  <testcase name="testServiceCoordination" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.004">
     <system-out><![CDATA[CustomerService: Retrieving customer CUST-123
 OrderService: Creating order for customer CUST-123
-PaymentService: Processing payment of 300 for order ORD-1755544234630
+PaymentService: Processing payment of 300 for order ORD-1755553062444
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalApproach" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.005">
+  <testcase name="testFunctionalApproach" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.008">
     <system-out><![CDATA[Functional payment processing for FUNC-ORD-001
 ]]></system-out>
   </testcase>
-  <testcase name="testInvalidCustomerHandling" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.002">
+  <testcase name="testInvalidCustomerHandling" classname="com.balazsholczer.sessionfacade.SessionFacadePatternTest" time="0.003">
     <system-out><![CDATA[OrderSessionFacade: Processing complete order workflow
 CustomerService: Retrieving customer INVALID-CUSTOMER
 OrderService: Creating order for customer INVALID-CUSTOMER
-PaymentService: Processing payment of 300 for order ORD-1755544234641
+PaymentService: Processing payment of 300 for order ORD-1755553062459
 OrderSessionFacade: Order completed successfully
 ]]></system-out>
   </testcase>

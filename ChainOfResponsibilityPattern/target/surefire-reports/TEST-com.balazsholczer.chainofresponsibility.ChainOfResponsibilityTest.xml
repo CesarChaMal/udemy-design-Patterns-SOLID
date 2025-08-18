@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.144" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.179" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Lenovo\.sdkman\candidates\java\current\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire17217864057693589280\surefirebooter-20250818210911577_123.jar C:\Users\Lenovo\AppData\Local\Temp\surefire17217864057693589280 2025-08-18T21-08-27_244-jvmRun1 surefire-20250818210911577_121tmp surefire_13-20250818210911577_122tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2215697573809914578\surefirebooter-20250818233514015_122.jar C:\Users\Lenovo\AppData\Local\Temp\surefire2215697573809914578 2025-08-18T23-34-24_764-jvmRun1 surefire-20250818233514015_120tmp surefire_13-20250818233514015_121tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\temp\udemy-design-Patterns-SOLID\ChainOfResponsibilityPattern\target\test-classes;C:\temp\udemy-design-Patterns-SOLID\ChainOfResponsibilityPattern\target\classes;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire17217864057693589280\surefirebooter-20250818210911577_123.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire2215697573809914578\surefirebooter-20250818233514015_122.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36"/>
@@ -59,54 +59,54 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testFunctionalHandlerBehavior" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.042">
+  <testcase name="testFunctionalHandlerBehavior" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.048">
     <system-out><![CDATA[FunctionalChain: Processing INFO - RequestRecord[type=INFO, content=Test, priority=1]
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionalChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.009">
+  <testcase name="testFunctionalChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.012">
     <system-out><![CDATA[FunctionalChain: Processing INFO - RequestRecord[type=INFO, content=Info message, priority=1]
 FunctionalChain: Processing WARNING - RequestRecord[type=WARNING, content=Warning message, priority=3]
 FunctionalChain: Processing ERROR - RequestRecord[type=ERROR, content=Error message, priority=5]
 ]]></system-out>
   </testcase>
-  <testcase name="testEquivalence" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.027">
+  <testcase name="testEquivalence" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.041">
     <system-out><![CDATA[InfoHandler: Processing Request{type='INFO', content='Test message', priority=1}
 FunctionalChain: Processing INFO - RequestRecord[type=INFO, content=Test message, priority=1]
 EnumChain: Processing INFO - RequestRecord[type=INFO, content=Test message, priority=1]
 StreamChain: Processed INFO - Test message
 ]]></system-out>
   </testcase>
-  <testcase name="testUnhandledRequests" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.003">
+  <testcase name="testUnhandledRequests" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.007">
     <system-out><![CDATA[FunctionalChain: No handler found for RequestRecord[type=UNKNOWN, content=Test, priority=1]
 EnumChain: No handler found for RequestRecord[type=UNKNOWN, content=Test, priority=1]
 StreamChain: No handler found for RequestRecord[type=UNKNOWN, content=Test, priority=1]
 ]]></system-out>
   </testcase>
-  <testcase name="testStreamChainAdvanced" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.008">
+  <testcase name="testStreamChainAdvanced" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.012">
     <system-out><![CDATA[StreamChain: No handler found for RequestRecord[type=UNKNOWN, content=Unknown type, priority=1]
 StreamChain: High priority request - High priority
 StreamChain: High priority request - High priority
 ]]></system-out>
   </testcase>
-  <testcase name="testRequestCreation" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.006"/>
-  <testcase name="testEnumHandlerBehavior" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.003">
+  <testcase name="testRequestCreation" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.004"/>
+  <testcase name="testEnumHandlerBehavior" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.002">
     <system-out><![CDATA[EnumChain: Processing WARNING - RequestRecord[type=WARNING, content=Test, priority=1]
 ]]></system-out>
   </testcase>
-  <testcase name="testEnumChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.006">
+  <testcase name="testEnumChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.007">
     <system-out><![CDATA[EnumChain: Processing INFO - RequestRecord[type=INFO, content=Info message, priority=1]
 EnumChain: Processing WARNING - RequestRecord[type=WARNING, content=Warning message, priority=3]
 EnumChain: Processing ERROR - RequestRecord[type=ERROR, content=Error message, priority=5]
 ]]></system-out>
   </testcase>
-  <testcase name="testStreamChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.006">
+  <testcase name="testStreamChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.007">
     <system-out><![CDATA[StreamChain: Processed INFO - Info message
 StreamChain: Processed WARNING - Warning message
 StreamChain: Processed ERROR - Error message
 StreamChain: High priority request - High priority
 ]]></system-out>
   </testcase>
-  <testcase name="testTraditionalChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.008">
+  <testcase name="testTraditionalChain" classname="com.balazsholczer.chainofresponsibility.ChainOfResponsibilityTest" time="0.007">
     <system-out><![CDATA[InfoHandler: Processing Request{type='INFO', content='Info message', priority=1}
 WarningHandler: Processing Request{type='WARNING', content='Warning message', priority=3}
 ErrorHandler: Processing Request{type='ERROR', content='Error message', priority=5}
